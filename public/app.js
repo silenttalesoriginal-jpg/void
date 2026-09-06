@@ -1,205 +1,262 @@
+/* =========================
+   VOID CONTENT
+========================= */
+
 const movies = [
 
     {
         id: 1,
-        title: "Nightfall",
-        year: 2026,
-        type: "Movie",
-        genre: "Thriller",
-        rating: "8.7",
-        duration: "2h 04m",
+        title: "EKAKI — Chapter 1",
+        year: 2025,
+        type: "Series",
+        chapter: "Chapter 1",
+        genre: "Horror",
+        rating: "IMDb",
+        duration: "Chapter 1",
         poster:
-            "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=700&q=85",
+            "assets/posters/ekaki-chapter-1.jpg",
         description:
-            "A city loses power at midnight. One signal remains alive — and someone is waiting for it.",
+            "The story begins. A strange presence starts to reveal itself as the characters enter a terrifying mystery.",
         video: ""
     },
 
     {
         id: 2,
-        title: "After Zero",
+        title: "EKAKI — Chapter 2",
         year: 2025,
-        type: "Movie",
-        genre: "Sci-Fi",
-        rating: "8.4",
-        duration: "1h 51m",
+        type: "Series",
+        chapter: "Chapter 2",
+        genre: "Horror",
+        rating: "IMDb",
+        duration: "Chapter 2",
         poster:
-            "https://images.unsplash.com/photo-1534791547706-4de854bfb523?auto=format&fit=crop&w=700&q=85",
+            "assets/posters/ekaki-chapter-2.jpg",
         description:
-            "Humanity receives one final message from a future that should not exist.",
+            "The mystery deepens and the presence becomes harder to escape.",
         video: ""
     },
 
     {
         id: 3,
-        title: "The Last Signal",
-        year: 2026,
+        title: "EKAKI — Chapter 3",
+        year: 2025,
         type: "Series",
-        genre: "Mystery",
-        rating: "9.1",
-        duration: "8 Episodes",
+        chapter: "Chapter 3",
+        genre: "Horror",
+        rating: "IMDb",
+        duration: "Chapter 3",
         poster:
-            "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=85",
+            "assets/posters/ekaki-chapter-3.jpg",
         description:
-            "A vanished crew leaves behind a transmission that changes everything.",
+            "New clues emerge and the characters discover that the danger is closer than they thought.",
         video: ""
     },
 
     {
         id: 4,
-        title: "Blackout",
+        title: "EKAKI — Chapter 4",
         year: 2025,
-        type: "Movie",
-        genre: "Action",
-        rating: "8.2",
-        duration: "2h 18m",
+        type: "Series",
+        chapter: "Chapter 4",
+        genre: "Horror",
+        rating: "IMDb",
+        duration: "Chapter 4",
         poster:
-            "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=700&q=85",
+            "assets/posters/ekaki-chapter-4.jpg",
         description:
-            "When the grid collapses, an ex-operative has six hours to cross the city.",
+            "The investigation reaches a dangerous turning point.",
         video: ""
     },
 
     {
         id: 5,
-        title: "Echoes",
-        year: 2024,
+        title: "EKAKI — Chapter 5",
+        year: 2025,
         type: "Series",
+        chapter: "Chapter 5",
         genre: "Horror",
-        rating: "8.9",
-        duration: "10 Episodes",
+        rating: "IMDb",
+        duration: "Chapter 5",
         poster:
-            "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=700&q=85",
+            "assets/posters/ekaki-chapter-5.jpg",
         description:
-            "A house records every conversation — sometimes before it happens.",
-        video: ""
-    },
-
-    {
-        id: 6,
-        title: "Redline",
-        year: 2023,
-        type: "Movie",
-        genre: "Action",
-        rating: "8.0",
-        duration: "2h 01m",
-        poster:
-            "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=85",
-        description:
-            "One illegal race. One missing hour. One driver who remembers the impossible.",
+            "The fifth chapter brings the story closer to its terrifying truth.",
         video: ""
     }
 
 ];
 
 
+/* =========================
+   RECOMMENDED / MORE
+========================= */
+
 const recommended = [
+
     movies[0],
     movies[1],
     movies[2],
+    movies[3],
     movies[4]
+
 ];
 
 
 const more = [
-    movies[3],
-    movies[5],
-    movies[1],
+
     movies[4],
-    movies[0],
-    movies[2]
+    movies[3],
+    movies[2],
+    movies[1],
+    movies[0]
+
 ];
 
 
+/* =========================
+   RECENTLY WATCHED
+========================= */
+
 let recentlyWatched =
     JSON.parse(
-        localStorage.getItem("void_recent")
+        localStorage.getItem(
+            "void_recent"
+        )
     ) || [];
 
+
+/* =========================
+   SELECTED MOVIE
+========================= */
 
 let selectedMovie = null;
 
 
-/* RENDER MOVIES */
+/* =========================
+   DOM
+========================= */
+
+const searchInput =
+    document.getElementById(
+        "searchInput"
+    );
+
+const homeContent =
+    document.getElementById(
+        "homeContent"
+    );
+
+const searchSection =
+    document.getElementById(
+        "searchSection"
+    );
+
+
+/* =========================
+   CARD
+========================= */
+
+function movieCard(movie) {
+
+    return `
+
+        <article
+            class="movie-card"
+            data-id="${movie.id}"
+        >
+
+            <img
+                src="${movie.poster}"
+                alt="${movie.title}"
+                loading="lazy"
+            >
+
+            <div class="card-play">
+                ▶
+            </div>
+
+            <div class="card-info">
+
+                <div class="card-title">
+                    ${movie.title}
+                </div>
+
+                <div class="card-meta">
+
+                    ${movie.year}
+                    •
+                    ${movie.chapter}
+                    •
+                    ${movie.genre}
+
+                </div>
+
+            </div>
+
+        </article>
+
+    `;
+}
+
+
+/* =========================
+   RENDER
+========================= */
 
 function renderMovies(
-    container,
+    containerId,
     list
 ) {
 
-    const element =
-        document.getElementById(container);
+    const container =
+        document.getElementById(
+            containerId
+        );
 
 
     if (!list.length) {
 
-        element.innerHTML = `
-            <div class="empty">
-                Nothing here yet.
-            </div>
-        `;
+        container.innerHTML = "";
 
         return;
 
     }
 
 
-    element.innerHTML =
+    container.innerHTML =
         list
-            .map(movie => `
-
-                <article
-                    class="movie-card"
-                    data-id="${movie.id}"
-                >
-
-                    <img
-                        src="${movie.poster}"
-                        alt="${movie.title}"
-                    >
-
-                    <div class="card-play">
-                        ▶
-                    </div>
-
-                    <div class="card-info">
-
-                        <div class="card-title">
-                            ${movie.title}
-                        </div>
-
-                        <div class="card-meta">
-                            ${movie.year}
-                            •
-                            ${movie.type}
-                            •
-                            ★ ${movie.rating}
-                        </div>
-
-                    </div>
-
-                </article>
-
-            `)
+            .map(movieCard)
             .join("");
 
 
-    element
-        .querySelectorAll(".movie-card")
+    container
+        .querySelectorAll(
+            ".movie-card"
+        )
         .forEach(card => {
 
             card.addEventListener(
                 "click",
                 () => {
 
+                    const id =
+                        Number(
+                            card.dataset.id
+                        );
+
                     const movie =
                         movies.find(
                             m =>
-                                m.id ==
-                                card.dataset.id
+                                m.id === id
                         );
 
-                    openDetails(movie);
+                    if (movie) {
+
+                        openDetails(
+                            movie
+                        );
+
+                    }
 
                 }
             );
@@ -209,7 +266,9 @@ function renderMovies(
 }
 
 
-/* RECENT */
+/* =========================
+   RECENT
+========================= */
 
 function renderRecent() {
 
@@ -229,109 +288,28 @@ function renderRecent() {
         recentMovies
     );
 
-}
-
-
-/* DETAILS */
-
-function openDetails(movie) {
-
-    selectedMovie = movie;
-
-
-    document.getElementById(
-        "detailPoster"
-    ).src = movie.poster;
-
-
-    document.getElementById(
-        "detailTitle"
-    ).textContent = movie.title;
-
-
-    document.getElementById(
-        "detailMeta"
-    ).textContent =
-        `${movie.year} • ${movie.type} • ${movie.duration} • ★ ${movie.rating}`;
-
-
-    document.getElementById(
-        "detailDescription"
-    ).textContent =
-        movie.description;
-
-
-    document.getElementById(
-        "movieModal"
-    ).classList.remove("hidden");
-
-}
-
-
-/* CLOSE DETAILS */
-
-function closeDetails() {
 
     document
-        .getElementById("movieModal")
-        .classList.add("hidden");
+        .getElementById(
+            "recentEmpty"
+        )
+        .classList.toggle(
+            "hidden",
+            recentMovies.length !== 0
+        );
 
 }
 
 
-document
-    .getElementById("closeButton")
-    .addEventListener(
-        "click",
-        closeDetails
-    );
+/* =========================
+   ADD RECENT
+========================= */
 
-
-document
-    .getElementById("closeModal")
-    .addEventListener(
-        "click",
-        closeDetails
-    );
-
-
-/* WATCH */
-
-document
-    .getElementById("watchButton")
-    .addEventListener(
-        "click",
-        () => {
-
-            if (!selectedMovie) {
-                return;
-            }
-
-
-            addToRecentlyWatched(
-                selectedMovie.id
-            );
-
-
-            closeDetails();
-
-
-            openPlayer(
-                selectedMovie
-            );
-
-        }
-    );
-
-
-/* RECENT WATCH */
-
-function addToRecentlyWatched(id) {
+function addRecent(id) {
 
     recentlyWatched =
         recentlyWatched.filter(
-            movieId =>
-                movieId !== id
+            x => x !== id
         );
 
 
@@ -339,7 +317,10 @@ function addToRecentlyWatched(id) {
 
 
     recentlyWatched =
-        recentlyWatched.slice(0, 6);
+        recentlyWatched.slice(
+            0,
+            10
+        );
 
 
     localStorage.setItem(
@@ -355,7 +336,112 @@ function addToRecentlyWatched(id) {
 }
 
 
-/* PLAYER */
+/* =========================
+   DETAILS
+========================= */
+
+function openDetails(movie) {
+
+    selectedMovie = movie;
+
+
+    document.getElementById(
+        "detailPoster"
+    ).src = movie.poster;
+
+
+    document.getElementById(
+        "detailTitle"
+    ).textContent =
+        movie.title;
+
+
+    document.getElementById(
+        "detailMeta"
+    ).textContent =
+        `${movie.year} • ${movie.type} • ${movie.chapter} • ${movie.genre}`;
+
+
+    document.getElementById(
+        "detailDescription"
+    ).textContent =
+        movie.description;
+
+
+    document.getElementById(
+        "movieModal"
+    ).classList.remove(
+        "hidden"
+    );
+
+}
+
+
+/* =========================
+   CLOSE DETAILS
+========================= */
+
+function closeDetails() {
+
+    document.getElementById(
+        "movieModal"
+    ).classList.add(
+        "hidden"
+    );
+
+}
+
+
+document.getElementById(
+    "closeButton"
+).addEventListener(
+    "click",
+    closeDetails
+);
+
+
+document.getElementById(
+    "closeModal"
+).addEventListener(
+    "click",
+    closeDetails
+);
+
+
+/* =========================
+   WATCH
+========================= */
+
+document.getElementById(
+    "watchButton"
+).addEventListener(
+    "click",
+    () => {
+
+        if (!selectedMovie) {
+            return;
+        }
+
+
+        addRecent(
+            selectedMovie.id
+        );
+
+
+        closeDetails();
+
+
+        openPlayer(
+            selectedMovie
+        );
+
+    }
+);
+
+
+/* =========================
+   PLAYER
+========================= */
 
 function openPlayer(movie) {
 
@@ -399,6 +485,8 @@ function openPlayer(movie) {
 
     else {
 
+        video.pause();
+
         video.removeAttribute(
             "src"
         );
@@ -410,192 +498,152 @@ function openPlayer(movie) {
             "block";
 
         message.textContent =
-            "Your licensed video will play here.";
+            "Licensed video stream will be connected here.";
 
     }
 
 }
 
 
-/* CLOSE PLAYER */
+/* =========================
+   CLOSE PLAYER
+========================= */
 
-document
-    .getElementById("playerClose")
-    .addEventListener(
-        "click",
-        () => {
+document.getElementById(
+    "playerClose"
+).addEventListener(
+    "click",
+    () => {
 
-            const player =
-                document.getElementById(
-                    "player"
-                );
+        const player =
+            document.getElementById(
+                "player"
+            );
 
-            const video =
-                document.getElementById(
-                    "videoPlayer"
-                );
-
-
-            video.pause();
-
-            video.removeAttribute(
-                "src"
+        const video =
+            document.getElementById(
+                "videoPlayer"
             );
 
 
-            player.classList.add(
+        video.pause();
+
+        video.removeAttribute(
+            "src"
+        );
+
+
+        player.classList.add(
+            "hidden"
+        );
+
+    }
+);
+
+
+/* =========================
+   SEARCH
+========================= */
+
+searchInput.addEventListener(
+    "input",
+    () => {
+
+        const query =
+            searchInput.value
+                .toLowerCase()
+                .trim();
+
+
+        /* EMPTY SEARCH */
+
+        if (!query) {
+
+            homeContent.classList.remove(
                 "hidden"
             );
 
-        }
-    );
-
-
-/* MY LIST */
-
-document
-    .getElementById("listButton")
-    .addEventListener(
-        "click",
-        () => {
-
-            if (!selectedMovie) {
-                return;
-            }
-
-
-            let list =
-                JSON.parse(
-                    localStorage.getItem(
-                        "void_list"
-                    )
-                ) || [];
-
-
-            if (
-                list.includes(
-                    selectedMovie.id
-                )
-            ) {
-
-                list =
-                    list.filter(
-                        id =>
-                            id !==
-                            selectedMovie.id
-                    );
-
-                document.getElementById(
-                    "listButton"
-                ).textContent =
-                    "+ My List";
-
-            }
-
-            else {
-
-                list.push(
-                    selectedMovie.id
-                );
-
-                document.getElementById(
-                    "listButton"
-                ).textContent =
-                    "✓ In My List";
-
-            }
-
-
-            localStorage.setItem(
-                "void_list",
-                JSON.stringify(list)
+            searchSection.classList.add(
+                "hidden"
             );
-
-        }
-    );
-
-
-/* SEARCH */
-
-document
-    .getElementById("searchInput")
-    .addEventListener(
-        "input",
-        event => {
-
-            const query =
-                event.target.value
-                    .toLowerCase()
-                    .trim();
-
-
-            if (!query) {
-
-                renderMovies(
-                    "recommended",
-                    recommended
-                );
-
-                renderRecent();
-
-                renderMovies(
-                    "more",
-                    more
-                );
-
-                return;
-
-            }
-
-
-            const results =
-                movies.filter(
-                    movie =>
-                        movie.title
-                            .toLowerCase()
-                            .includes(query)
-                        ||
-                        movie.genre
-                            .toLowerCase()
-                            .includes(query)
-                        ||
-                        movie.type
-                            .toLowerCase()
-                            .includes(query)
-                );
-
 
             renderMovies(
                 "recommended",
-                results
+                recommended
+            );
+
+            renderRecent();
+
+            renderMovies(
+                "more",
+                more
+            );
+
+            return;
+
+        }
+
+
+        /* SEARCH MODE */
+
+        homeContent.classList.add(
+            "hidden"
+        );
+
+        searchSection.classList.remove(
+            "hidden"
+        );
+
+
+        const results =
+            movies.filter(
+                movie => {
+
+                    const text =
+                        [
+                            movie.title,
+                            movie.chapter,
+                            movie.genre,
+                            movie.type
+                        ]
+                        .join(" ")
+                        .toLowerCase();
+
+
+                    return text.includes(
+                        query
+                    );
+
+                }
             );
 
 
-            document.getElementById(
-                "recommended"
-            )
-            .parentElement
-            .querySelector(
-                ".section-title h2"
-            )
-            .textContent =
-                "Search Results";
+        document.getElementById(
+            "searchTitle"
+        ).textContent =
+            `Results for "${searchInput.value}"`;
 
 
-            document.getElementById(
-                "recent"
-            ).innerHTML = "";
+        renderMovies(
+            "searchResults",
+            results
+        );
 
 
-            document.getElementById(
-                "more"
-            ).innerHTML = "";
+        document.getElementById(
+            "noResults"
+        ).classList.toggle(
+            "hidden",
+            results.length !== 0
+        );
 
-        }
-    );
+    }
+);
 
 
-/* VOICE SEARCH */
+/* =========================
+   VOICE SEARCH
+========================= */
 
 const voiceButton =
     document.getElementById(
@@ -630,13 +678,11 @@ voiceButton.addEventListener(
         recognition.lang =
             "en-IN";
 
-
         recognition.interimResults =
             false;
 
-
-        recognition.maxAlternatives =
-            1;
+        recognition.continuous =
+            false;
 
 
         voiceButton.classList.add(
@@ -655,15 +701,14 @@ voiceButton.addEventListener(
                         .transcript;
 
 
-                document.getElementById(
-                    "searchInput"
-                ).value = text;
+                searchInput.value =
+                    text;
 
 
-                document.getElementById(
-                    "searchInput"
-                ).dispatchEvent(
-                    new Event("input")
+                searchInput.dispatchEvent(
+                    new Event(
+                        "input"
+                    )
                 );
 
             };
@@ -672,8 +717,8 @@ voiceButton.addEventListener(
         recognition.onerror =
             () => {
 
-                alert(
-                    "Voice search could not be started."
+                console.log(
+                    "Voice search error"
                 );
 
             };
@@ -692,7 +737,33 @@ voiceButton.addEventListener(
 );
 
 
-/* START */
+/* =========================
+   CURSOR GLOW
+========================= */
+
+const cursorGlow =
+    document.getElementById(
+        "cursorGlow"
+    );
+
+
+document.addEventListener(
+    "mousemove",
+    event => {
+
+        cursorGlow.style.left =
+            event.clientX + "px";
+
+        cursorGlow.style.top =
+            event.clientY + "px";
+
+    }
+);
+
+
+/* =========================
+   INITIAL LOAD
+========================= */
 
 renderMovies(
     "recommended",
@@ -706,4 +777,31 @@ renderRecent();
 renderMovies(
     "more",
     more
+);
+
+
+/* =========================
+   LOADING COMPLETE
+========================= */
+
+window.addEventListener(
+    "load",
+    () => {
+
+        setTimeout(
+            () => {
+
+                document
+                    .getElementById(
+                        "loadingScreen"
+                    )
+                    .classList.add(
+                        "hidden"
+                    );
+
+            },
+            500
+        );
+
+    }
 );
