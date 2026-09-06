@@ -1,0 +1,12 @@
+{
+  "name": "void-ott",
+  "version": "1.0.0",
+  "description": "VOID OTT Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
