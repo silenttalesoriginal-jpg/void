@@ -13,11 +13,15 @@ const movies = [
         genre: "Horror",
         rating: "IMDb",
         duration: "Chapter 1",
+
         poster:
             "assets/posters/ekaki-chapter-1.jpg",
+
         description:
-            "The story begins. A strange presence starts to reveal itself as the characters enter a terrifying mystery.",
-        video: ""
+            "The story begins. A strange presence starts to reveal itself.",
+
+        video:
+            "http://localhost:8080/hls/chapter-1/master.m3u8"
     },
 
     {
@@ -446,59 +450,80 @@ document.getElementById(
 function openPlayer(movie) {
 
     const player =
-        document.getElementById(
-            "player"
-        );
+        document.getElementById("player");
 
     const video =
-        document.getElementById(
-            "videoPlayer"
-        );
+        document.getElementById("videoPlayer");
 
     const message =
-        document.getElementById(
-            "playerMessage"
-        );
+        document.getElementById("playerMessage");
 
 
-    player.classList.remove(
-        "hidden"
-    );
+    player.classList.remove("hidden");
 
 
-    if (movie.video) {
+    if (!movie.video) {
 
-        video.src =
-            movie.video;
+        video.style.display = "none";
 
-        video.style.display =
-            "block";
+        message.style.display = "block";
 
-        message.style.display =
-            "none";
+        message.textContent =
+            "Licensed video stream will be connected here.";
 
-        video.play().catch(
-            () => {}
+        return;
+    }
+
+
+    message.style.display = "none";
+    video.style.display = "block";
+
+
+    if (window.Hls && Hls.isSupported()) {
+
+        const hls = new Hls();
+
+        hls.loadSource(movie.video);
+
+        hls.attachMedia(video);
+
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+
+            video.play().catch(() => {});
+
+        });
+
+
+        video._hls = hls;
+
+    }
+
+    else if (
+        video.canPlayType(
+            "application/vnd.apple.mpegurl"
+        )
+    ) {
+
+        video.src = movie.video;
+
+        video.addEventListener(
+            "loadedmetadata",
+            () => {
+
+                video.play().catch(() => {});
+
+            },
+            { once: true }
         );
 
     }
 
     else {
 
-        video.pause();
-
-        video.removeAttribute(
-            "src"
-        );
-
-        video.style.display =
-            "none";
-
-        message.style.display =
-            "block";
+        message.style.display = "block";
 
         message.textContent =
-            "Licensed video stream will be connected here.";
+            "This browser does not support HLS playback.";
 
     }
 
