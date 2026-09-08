@@ -66,7 +66,8 @@ const movies = [
             "assets/posters/ekaki-chapter-3.jpg",
         description:
             "New clues emerge and the characters discover that the danger is closer than they thought.",
-        video: ""
+        video:
+            "https://fembed.co/embed/Ct4hPfkU_j-tt"           
     },
 
     {
@@ -99,6 +100,25 @@ const movies = [
         description:
             "The fifth chapter brings the story closer to its terrifying truth.",
         video: ""
+    },
+    {
+        id: 6,
+        title: "DEMON SLAYER INFINITY CASTLE",
+        year: 2025,
+        type: "Anime Movie",
+        genre: "Animation",
+        rating: "IMDB",
+        poster:
+            "assets/posters/demoninfinitycastle.jpg",
+        description:
+            "The Demon Slayer Corps are drawn into the Infinity Castle.",
+        video:
+            "I WILL UPLOAD LATER",
+        downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p": ""
+        }   
     }
 
 ];
