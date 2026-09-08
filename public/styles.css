@@ -987,3 +987,58 @@ main {
     }
 
 }
+.detail-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.download-wrapper {
+    position: relative;
+}
+
+.download-button {
+    border: 1px solid rgba(168, 85, 247, 0.5);
+    border-radius: 6px;
+    padding: 12px 22px;
+    background: rgba(139, 92, 246, 0.12);
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.download-button:hover {
+    background: rgba(139, 92, 246, 0.25);
+    box-shadow: 0 0 25px rgba(139, 92, 246, 0.2);
+}
+
+.download-menu {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 150px;
+    padding: 8px;
+    border-radius: 8px;
+    background: rgba(15, 8, 25, 0.98);
+    border: 1px solid rgba(168, 85, 247, 0.25);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.download-option {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 12px;
+    background: transparent;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.download-option:hover {
+    background: rgba(139, 92, 246, 0.2);
+}

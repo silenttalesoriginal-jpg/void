@@ -21,7 +21,13 @@ const movies = [
             "The story begins. A strange presence starts to reveal itself.",
 
         video:
-            "https://fembed.co/embed/cKs_RM7jvf-sB"
+            "https://fembed.co/embed/cKs_RM7jvf-sB",
+
+        downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p": ""
+        }
     },
 
     {
@@ -777,6 +783,75 @@ window.addEventListener(
 
             },
             500
+        );
+
+    }
+);
+const downloadButton =
+    document.getElementById("downloadButton");
+
+const downloadMenu =
+    document.getElementById("downloadMenu");
+
+
+downloadButton.addEventListener(
+    "click",
+    () => {
+
+        downloadMenu.classList.toggle("hidden");
+
+    }
+);
+
+
+document.querySelectorAll(
+    ".download-option"
+).forEach(
+    button => {
+
+        button.addEventListener(
+            "click",
+            () => {
+
+                if (
+                    !selectedMovie ||
+                    !selectedMovie.downloads
+                ) {
+                    return;
+                }
+
+
+                const quality =
+                    button.dataset.quality;
+
+
+                const url =
+                    selectedMovie.downloads[quality];
+
+
+                if (!url) {
+
+                    alert(
+                        quality +
+                        " download is not available yet."
+                    );
+
+                    return;
+
+                }
+
+
+                window.open(
+                    url,
+                    "_blank"
+                );
+
+
+                downloadMenu.classList.add(
+                    "hidden"
+                );
+
+            }
         );
 
     }
