@@ -43,7 +43,14 @@ const movies = [
             "assets/posters/ekaki-chapter-2.jpg",
         description:
             "The mystery deepens and the presence becomes harder to escape.",
-        video: ""
+        video:
+            "https://fembed.co/embed/zl_7v-EMrBI0F",
+
+        downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p": ""
+        }    
     },
 
     {
