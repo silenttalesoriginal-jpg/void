@@ -6,7 +6,7 @@ const movies = [
 
     {
         id: 1,
-        title: "EKAKI — Chapter 1",
+        title: "EKAKI Chapter 1",
         year: 2025,
         type: "Series",
         chapter: "Chapter 1",
@@ -26,7 +26,7 @@ const movies = [
         downloads: {
             "480p": "",
             "720p": "",
-            "1080p": ""
+            "1080p": "https://www.mediafire.com/file/bzqxdxc4gk8me36/EKAKI+CHAPTER+1+[1080P].mp4/file"
         }
     },
 
