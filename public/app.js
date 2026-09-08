@@ -24,7 +24,7 @@ const movies = [
             "https://fembed.co/embed/cKs_RM7jvf-sB",
 
         downloads: {
-            "480p": "",
+            "480p": "https://www.mediafire.com/file/lqlk6pn6rwrqwyf/EKAKI+CHAPTER+1+[480P].mp4/file",
             "720p": "https://www.mediafire.com/file/uzwfl9bw3zv31eo/ekaki+chapter+1+[720p].mp4/file",
             "1080p": "https://www.mediafire.com/file/bzqxdxc4gk8me36/EKAKI+CHAPTER+1+[1080P].mp4/file"
         }
