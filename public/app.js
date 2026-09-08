@@ -83,7 +83,8 @@ const movies = [
             "assets/posters/ekaki-chapter-4.jpg",
         description:
             "The investigation reaches a dangerous turning point.",
-        video: ""
+        video:
+           "https://fembed.co/embed/XM-xV8z_McYwQ"
     },
 
     {
