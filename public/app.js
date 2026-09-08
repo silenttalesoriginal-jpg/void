@@ -21,7 +21,7 @@ const movies = [
             "The story begins. A strange presence starts to reveal itself.",
 
         video:
-            "http://localhost:8080/hls/chapter-1/master.m3u8"
+            "https://fembed.co/embed/cKs_RM7jvf-sB"
     },
 
     {
@@ -469,63 +469,18 @@ function openPlayer(movie) {
         message.style.display = "block";
 
         message.textContent =
-            "Licensed video stream will be connected here.";
+            "Video stream will be connected here.";
 
         return;
+
     }
 
 
     message.style.display = "none";
+
     video.style.display = "block";
 
-
-    if (window.Hls && Hls.isSupported()) {
-
-        const hls = new Hls();
-
-        hls.loadSource(movie.video);
-
-        hls.attachMedia(video);
-
-        hls.on(Hls.Events.MANIFEST_PARSED, () => {
-
-            video.play().catch(() => {});
-
-        });
-
-
-        video._hls = hls;
-
-    }
-
-    else if (
-        video.canPlayType(
-            "application/vnd.apple.mpegurl"
-        )
-    ) {
-
-        video.src = movie.video;
-
-        video.addEventListener(
-            "loadedmetadata",
-            () => {
-
-                video.play().catch(() => {});
-
-            },
-            { once: true }
-        );
-
-    }
-
-    else {
-
-        message.style.display = "block";
-
-        message.textContent =
-            "This browser does not support HLS playback.";
-
-    }
+    video.src = movie.video;
 
 }
 
@@ -551,11 +506,7 @@ document.getElementById(
             );
 
 
-        video.pause();
-
-        video.removeAttribute(
-            "src"
-        );
+        video.src = "";
 
 
         player.classList.add(
