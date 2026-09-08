@@ -25,14 +25,14 @@ const movies = [
 
         downloads: {
             "480p": "",
-            "720p": "",
+            "720p": "https://www.mediafire.com/file/uzwfl9bw3zv31eo/ekaki+chapter+1+[720p].mp4/file",
             "1080p": "https://www.mediafire.com/file/bzqxdxc4gk8me36/EKAKI+CHAPTER+1+[1080P].mp4/file"
         }
     },
 
     {
         id: 2,
-        title: "EKAKI — Chapter 2",
+        title: "EKAKI Chapter 2",
         year: 2025,
         type: "Series",
         chapter: "Chapter 2",
@@ -55,7 +55,7 @@ const movies = [
 
     {
         id: 3,
-        title: "EKAKI — Chapter 3",
+        title: "EKAKI Chapter 3",
         year: 2025,
         type: "Series",
         chapter: "Chapter 3",
@@ -71,7 +71,7 @@ const movies = [
 
     {
         id: 4,
-        title: "EKAKI — Chapter 4",
+        title: "EKAKI Chapter 4",
         year: 2025,
         type: "Series",
         chapter: "Chapter 4",
@@ -87,7 +87,7 @@ const movies = [
 
     {
         id: 5,
-        title: "EKAKI — Chapter 5",
+        title: "EKAKI Chapter 5",
         year: 2025,
         type: "Series",
         chapter: "Chapter 5",
