@@ -67,7 +67,13 @@ const movies = [
         description:
             "New clues emerge and the characters discover that the danger is closer than they thought.",
         video:
-            "https://fembed.co/embed/Ct4hPfkU_j-tt"           
+            "https://fembed.co/embed/Ct4hPfkU_j-tt",
+
+        downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p": ""
+        }    
     },
 
     {
@@ -84,7 +90,13 @@ const movies = [
         description:
             "The investigation reaches a dangerous turning point.",
         video:
-           "https://fembed.co/embed/XM-xV8z_McYwQ"
+           "https://fembed.co/embed/XM-xV8z_McYwQ",
+
+        downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p": ""
+        }    
     },
 
     {
@@ -101,7 +113,13 @@ const movies = [
         description:
             "The fifth chapter brings the story closer to its terrifying truth.",
         video:
-           "https://fembed.co/embed/1_ihbYMPJ-WId"                 
+           "https://fembed.co/embed/1_ihbYMPJ-WId",
+           
+        downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p": ""
+        }    
     },
     {
         id: 6,
