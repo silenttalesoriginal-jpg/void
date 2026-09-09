@@ -100,7 +100,8 @@ const movies = [
             "assets/posters/ekaki-chapter-5.jpg",
         description:
             "The fifth chapter brings the story closer to its terrifying truth.",
-        video: ""
+        video:
+           "https://fembed.co/embed/1_ihbYMPJ-WId"                 
     },
     {
         id: 6,
