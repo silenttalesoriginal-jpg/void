@@ -152,12 +152,13 @@ const movies = [
 ========================= */
 
 const recommended = [
-
+    movies[5],
     movies[0],
     movies[1],
     movies[2],
     movies[3],
     movies[4]
+    
     
 
 ];
@@ -165,7 +166,7 @@ const recommended = [
 
 const more = [
 
-    
+    movies[5],
     movies[4],
     movies[3],
     movies[2],
