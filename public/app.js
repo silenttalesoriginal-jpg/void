@@ -139,7 +139,7 @@ const movies = [
             "720p": "https://fs1.indishare.info/1IS9k81cf4cI",
             "1080p": "https://fs1.indishare.info/ptuVrYHdlLiV"
         }
-    }
+    },
       
    
     
