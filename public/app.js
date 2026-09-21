@@ -120,7 +120,29 @@ const movies = [
             "720p": "",
             "1080p": ""
         }    
-    }
+    },
+
+
+   {
+      id:6,
+      title: "Iron Man" ,
+      year: 2003,
+      type:"movie",
+      genre:"Sci-Fi",
+      rating: "imdb",
+      poster:
+         "assets/posters/ironman.jpg",
+      description:
+         "Tony Stark builds a high-tech suit of armor to escape captivity and becomes the superhero Iron Man.",
+      video:
+         "",
+      downloads: {
+            "480p": "https://fs1.indishare.info/1ZDhluOg5uLG",
+            "720p": "https://fs1.indishare.info/1IS9k81cf4cI",
+            "1080p": "https://fs1.indishare.info/ptuVrYHdlLiV"
+        }
+      
+   
     
 
 ];
