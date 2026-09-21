@@ -120,26 +120,8 @@ const movies = [
             "720p": "",
             "1080p": ""
         }    
-    },
-    {
-        id: 6,
-        title: "DEMON SLAYER INFINITY CASTLE",
-        year: 2025,
-        type: "Anime Movie",
-        genre: "Animation",
-        rating: "IMDB",
-        poster:
-            "assets/posters/demoninfinitycastle.jpg",
-        description:
-            "The Demon Slayer Corps are drawn into the Infinity Castle.",
-        video:
-            "",
-        downloads: {
-            "480p": "",
-            "720p": "",
-            "1080p": ""
-        }   
     }
+    
 
 ];
 
@@ -154,15 +136,15 @@ const recommended = [
     movies[1],
     movies[2],
     movies[3],
-    movies[4],
-    movies[5]
+    movies[4]
+    
 
 ];
 
 
 const more = [
 
-    movies[5],
+    
     movies[4],
     movies[3],
     movies[2],
