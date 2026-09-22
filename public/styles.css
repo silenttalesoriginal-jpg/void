@@ -1151,3 +1151,15 @@ main {
     }
 
 }
+.vlc-notice {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 14px;
+    background: rgba(255, 107, 0, 0.12);
+    border: 1px solid #ff6b00;
+    border-left: 4px solid #ff3d00;
+    border-radius: 6px;
+    color: #ff6b00;
+    font-size: 0.88rem;
+    font-weight: 600;
+}
