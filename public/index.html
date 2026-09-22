@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="mhMlUtAQOGAxi9ZI-ZzeE5Pqs6e9cy_2xeorVhKf0Ww" />
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="google-site-verification"
+        content="mhMlUtAQOGAxi9ZI-ZzeE5Pqs6e9cy_2xeorVhKf0Ww"
+    >
+
     <title>VOID</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- FONT -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
         rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
 </head>
+
 
 <body>
 
+
     <!-- CURSOR GLOW -->
+
     <div id="cursorGlow"></div>
 
+
     <!-- LOADING -->
+
     <div id="loadingScreen">
+
         <div class="loader"></div>
+
     </div>
 
+
     <!-- HEADER -->
+
     <header class="topbar">
 
-        <a href="#" class="brand">
-            <img src="assets/logo.png" alt="VOID">
+        <a
+            href="#"
+            class="brand"
+        >
+
+            <img
+                src="assets/logo.png"
+                alt="VOID"
+            >
+
         </a>
+
 
         <div class="search-container">
 
-            <span class="search-icon">⌕</span>
+            <span class="search-icon">
+                ⌕
+            </span>
+
 
             <input
                 id="searchInput"
@@ -45,11 +95,13 @@
                 autocomplete="off"
             >
 
+
             <button
                 id="voiceButton"
                 class="voice-button"
                 aria-label="Voice Search"
                 title="Voice Search"
+                type="button"
             >
                 🎙
             </button>
@@ -59,12 +111,15 @@
     </header>
 
 
-    <!-- MAIN WEBSITE -->
+    <!-- MAIN -->
+
     <main id="mainContent">
 
-        <!-- NORMAL HOME -->
+
+        <!-- HOME -->
 
         <div id="homeContent">
+
 
             <!-- RECOMMENDED -->
 
@@ -73,6 +128,7 @@
                 <div class="section-header">
 
                     <div>
+
                         <span class="section-label">
                             FOR YOU
                         </span>
@@ -80,9 +136,11 @@
                         <h2>
                             Recommended
                         </h2>
+
                     </div>
 
                 </div>
+
 
                 <div
                     class="movie-grid"
@@ -92,46 +150,14 @@
             </section>
 
 
-            <!-- RECENTLY WATCHED -->
+            <!-- MORE -->
 
             <section class="section">
 
                 <div class="section-header">
 
                     <div>
-                        <span class="section-label">
-                            CONTINUE WATCHING
-                        </span>
 
-                        <h2>
-                            Recently Watched
-                        </h2>
-                    </div>
-
-                </div>
-
-                <div
-                    class="movie-grid"
-                    id="recent"
-                ></div>
-
-                <div
-                    class="empty hidden"
-                    id="recentEmpty"
-                >
-                    You haven't watched anything yet.
-                </div>
-
-            </section>
-
-
-            <!-- MORE TO WATCH -->
-
-            <section class="section">
-
-                <div class="section-header">
-
-                    <div>
                         <span class="section-label">
                             DISCOVER
                         </span>
@@ -139,9 +165,11 @@
                         <h2>
                             More to Watch
                         </h2>
+
                     </div>
 
                 </div>
+
 
                 <div
                     class="movie-grid"
@@ -150,10 +178,11 @@
 
             </section>
 
+
         </div>
 
 
-        <!-- SEARCH RESULTS ONLY -->
+        <!-- SEARCH RESULTS -->
 
         <section
             id="searchSection"
@@ -163,6 +192,7 @@
             <div class="section-header">
 
                 <div>
+
                     <span class="section-label">
                         VOID SEARCH
                     </span>
@@ -170,14 +200,17 @@
                     <h2 id="searchTitle">
                         Search Results
                     </h2>
+
                 </div>
 
             </div>
+
 
             <div
                 class="movie-grid"
                 id="searchResults"
             ></div>
+
 
             <div
                 class="empty hidden"
@@ -188,152 +221,255 @@
 
         </section>
 
+
     </main>
 
 
-    <!-- DETAILS MODAL -->
+    <!-- FULL SCREEN DETAILS -->
 
     <div
         class="modal hidden"
         id="movieModal"
     >
 
-        <div
-            class="modal-backdrop"
-            id="closeModal"
-        ></div>
 
-        <div class="movie-details">
+        <div class="full-details-page">
+
+
+            <!-- CLOSE -->
 
             <button
                 class="close-button"
                 id="closeButton"
+                type="button"
+                aria-label="Close"
             >
                 ×
             </button>
 
 
-            <div class="detail-image-wrap">
+            <!-- POSTER -->
+
+            <div class="full-poster-wrap">
 
                 <img
                     id="detailPoster"
-                    class="detail-poster"
+                    class="full-detail-poster"
                     alt=""
                 >
 
-                <div class="image-overlay"></div>
-
             </div>
 
 
-            <div class="details-content">
+            <!-- DETAILS -->
 
-                <div class="detail-label">
-                    VOID ORIGINAL
+            <div class="full-details-content">
+
+
+                <!-- TITLE -->
+
+                <h1 id="detailTitle">
+                    Movie Name
+                </h1>
+
+
+                <!-- DESCRIPTION -->
+
+                <div class="info-section">
+
+                    <div class="info-heading">
+                        Description
+                    </div>
+
+
+                    <p id="detailDescription">
+                    </p>
+
                 </div>
 
-                <h2 id="detailTitle">
-                    EKAKI
-                </h2>
 
-                <div
-                    class="detail-meta"
-                    id="detailMeta"
-                ></div>
+                <!-- NAME -->
 
-                <p
-                    id="detailDescription"
-                ></p>
+                <div class="info-row">
+
+                    <span class="info-label">
+                        🎬 Name
+                    </span>
 
 
-                <div class="detail-buttons">
+                    <span
+                        class="info-value"
+                        id="detailName"
+                    >
+                    </span>
 
-    <button
-        class="watch-button"
-        id="watchButton"
-    >
-        ▶ Watch
-    </button>
+                </div>
 
-    <div class="download-wrapper">
 
-        <button
-            class="download-button"
-            id="downloadButton"
-        >
-            ↓ Download
-        </button>
+                <!-- RATING -->
 
-        <div
-            class="download-menu hidden"
-            id="downloadMenu"
-        >
+                <div class="info-row">
 
-            <button
-                class="download-option"
-                data-quality="480p"
-            >
-                ↓ 480p
-            </button>
+                    <span class="info-label">
+                        ⭐ Rating
+                    </span>
 
-            <button
-                class="download-option"
-                data-quality="720p"
-            >
-                ↓ 720p
-            </button>
 
-            <button
-                class="download-option"
-                data-quality="1080p"
-            >
-                ↓ 1080p
-            </button>
+                    <span
+                        class="info-value"
+                        id="detailRating"
+                    >
+                    </span>
 
-        </div>
+                </div>
 
-    </div>
 
-</div>
+                <!-- VIDEO LENGTH -->
+
+                <div class="info-row">
+
+                    <span class="info-label">
+                        ⏱ Video Length
+                    </span>
+
+
+                    <span
+                        class="info-value"
+                        id="detailDuration"
+                    >
+                    </span>
+
+                </div>
+
+
+                <!-- VIDEO FORMAT -->
+
+                <div class="info-row">
+
+                    <span class="info-label">
+                        📁 Video Format
+                    </span>
+
+
+                    <span
+                        class="info-value"
+                        id="detailFormat"
+                    >
+                    </span>
+
+                </div>
+
+
+                <!-- DOWNLOADS -->
+
+                <div class="downloads-section">
+
+
+                    <div class="downloads-title">
+                        Download
+                    </div>
+
+
+                    <!-- 1080P -->
+
+                    <div class="download-card">
+
+                        <div class="download-quality">
+                            1080p
+                        </div>
+
+
+                        <div
+                            class="download-size"
+                            id="size1080p"
+                        >
+                            Size unavailable
+                        </div>
+
+
+                        <button
+                            class="download-option"
+                            data-quality="1080p"
+                            type="button"
+                        >
+                            ↓ Download 1080p
+                        </button>
+
+                    </div>
+
+
+                    <!-- 720P -->
+
+                    <div class="download-card">
+
+                        <div class="download-quality">
+                            720p
+                        </div>
+
+
+                        <div
+                            class="download-size"
+                            id="size720p"
+                        >
+                            Size unavailable
+                        </div>
+
+
+                        <button
+                            class="download-option"
+                            data-quality="720p"
+                            type="button"
+                        >
+                            ↓ Download 720p
+                        </button>
+
+                    </div>
+
+
+                    <!-- 480P -->
+
+                    <div class="download-card">
+
+                        <div class="download-quality">
+                            480p
+                        </div>
+
+
+                        <div
+                            class="download-size"
+                            id="size480p"
+                        >
+                            Size unavailable
+                        </div>
+
+
+                        <button
+                            class="download-option"
+                            data-quality="480p"
+                            type="button"
+                        >
+                            ↓ Download 480p
+                        </button>
+
+                    </div>
+
+
+                </div>
+
 
             </div>
 
+
         </div>
+
 
     </div>
 
 
-    <!-- VIDEO PLAYER -->
+    <!-- APP -->
 
-    <div
-        class="player hidden"
-        id="player"
-    >
-
-        <button
-            class="player-close"
-            id="playerClose"
-        >
-            ×
-        </button>
-
-        <iframe
-            id="videoPlayer"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-        ></iframe>
-
-        <div
-            id="playerMessage"
-            class="player-message"
-        >
-            Video will appear here.
-        </div>
-
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script src="app.js"></script>
 
 </body>
+
 </html>
