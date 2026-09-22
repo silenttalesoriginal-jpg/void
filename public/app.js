@@ -107,7 +107,7 @@ const movies = [
             },
 
             "480p": {
-                url: "YOUR_480P_DOWNLOAD_URL",
+                url: "https://fs1.indishare.info/txghwocqvwji",
                 size: "423 MB"
             }
 
