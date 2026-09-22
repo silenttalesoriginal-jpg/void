@@ -10,9 +10,9 @@ const movies = [
         year: 2003,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "IMDb",
+        rating: "8.3",
         duration: "2h 6m",
-        format: "MP4",
+        format: "MKV",
 
         poster:
             "assets/posters/ironman.jpg",
@@ -23,18 +23,18 @@ const movies = [
         downloads: {
 
             "1080p": {
-                url: "YOUR_1080P_DOWNLOAD_URL",
-                size: "2.10 GB"
+                url: "https://fs1.indishare.info/ptuVrYHdlLiV",
+                size: "2.5 GB"
             },
 
             "720p": {
-                url: "YOUR_720P_DOWNLOAD_URL",
-                size: "1.10 GB"
+                url: "https://fs1.indishare.info/1IS9k81cf4cI",
+                size: "1.2 GB"
             },
 
             "480p": {
-                url: "YOUR_480P_DOWNLOAD_URL",
-                size: "650 MB"
+                url: "https://fs1.indishare.info/1ZDhluOg5uLG",
+                size: "439 MB"
             }
 
         }
