@@ -45,14 +45,12 @@ const movies = [
             "The mystery deepens and the presence becomes harder to escape.",
         video:
             "https://fembed.co/embed/zl_7v-EMrBI0F",
-
         downloads: {
             "480p": "",
             "720p": "",
             "1080p": ""
         }    
     },
-
     {
         id: 3,
         title: "EKAKI Chapter 3",
@@ -175,7 +173,7 @@ const movies = [
        downloads: {
             "480p": "",
             "720p": "",
-            "1080p: ""
+            "1080p": ""
         }
     },
    
