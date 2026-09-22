@@ -97,18 +97,18 @@ const movies = [
         downloads: {
 
             "1080p": {
-                url: "YOUR_1080P_DOWNLOAD_URL",
-                size: "2.40 GB"
+                url: "https://fs1.indishare.info/2zbmOK2tS2Py",
+                size: "3 GB"
             },
 
             "720p": {
                 url: "YOUR_720P_DOWNLOAD_URL",
-                size: "1.25 GB"
+                size: "1 GB"
             },
 
             "480p": {
                 url: "YOUR_480P_DOWNLOAD_URL",
-                size: "720 MB"
+                size: "423 MB"
             }
 
         }
