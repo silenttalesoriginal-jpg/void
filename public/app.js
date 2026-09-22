@@ -127,7 +127,7 @@ const movies = [
       year: 2003,
       type:"movie",
       genre:"Sci-Fi",
-      rating: "imdb",
+      rating: "IMDb",
       poster:
          "assets/posters/ironman.jpg",
       description:
@@ -140,6 +140,29 @@ const movies = [
             "1080p": "https://fs1.indishare.info/ptuVrYHdlLiV"
         }
     },
+    {
+       id:7,
+       title:"Iron Man 2",
+       year:2010,
+       type:"Movie",
+       genre:"Sci-Fi",
+       rating:"IMDb",
+       poster:
+          "assets/posters/ironman2.jpg",
+       description:
+          "ron Man 2 follows billionaire Tony Stark as he fights government pressure to hand over his suit technology while dealing with his own slow poisoning and a vengeful Russian physicist",
+       video:
+          "",
+       downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p": ""
+        }    
+    },
+   
+       
+       
+          
       
    
     
