@@ -156,7 +156,7 @@ const movies = [
        downloads: {
             "480p": "",
             "720p": "",
-            "1080p": ""
+            "1080p": "https://fs1.indishare.info/aKMZLrSnzXDe"
         }    
     },
    
@@ -176,6 +176,7 @@ const movies = [
 
 const recommended = [
     movies[5],
+    movies[6],
     movies[0],
     movies[1],
     movies[2],
@@ -191,6 +192,7 @@ const more = [
 
     movies[5],
     movies[4],
+    movies[6],
     movies[3],
     movies[2],
     movies[1],
