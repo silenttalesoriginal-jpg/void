@@ -6,228 +6,133 @@ const movies = [
 
     {
         id: 1,
-        title: "EKAKI Chapter 1",
-        year: 2025,
-        type: "Series",
-        chapter: "Chapter 1",
-        genre: "Horror",
+        title: "Iron Man",
+        year: 2003,
+        type: "Movie",
+        genre: "Sci-Fi",
         rating: "IMDb",
-        duration: "Chapter 1",
+        duration: "2h 6m",
+        format: "MP4",
 
         poster:
-            "assets/posters/ekaki-chapter-1.jpg",
+            "assets/posters/ironman.jpg",
 
         description:
-            "The story begins. A strange presence starts to reveal itself.",
-
-        video:
-            "https://fembed.co/embed/cKs_RM7jvf-sB",
+            "Tony Stark builds a high-tech suit of armor to escape captivity and becomes the superhero Iron Man.",
 
         downloads: {
-            "480p": "https://www.mediafire.com/file/lqlk6pn6rwrqwyf/EKAKI+CHAPTER+1+[480P].mp4/file",
-            "720p": "https://www.mediafire.com/file/uzwfl9bw3zv31eo/ekaki+chapter+1+[720p].mp4/file",
-            "1080p": "https://www.mediafire.com/file/bzqxdxc4gk8me36/EKAKI+CHAPTER+1+[1080P].mp4/file"
+
+            "1080p": {
+                url: "YOUR_1080P_DOWNLOAD_URL",
+                size: "2.10 GB"
+            },
+
+            "720p": {
+                url: "YOUR_720P_DOWNLOAD_URL",
+                size: "1.10 GB"
+            },
+
+            "480p": {
+                url: "YOUR_480P_DOWNLOAD_URL",
+                size: "650 MB"
+            }
+
         }
     },
+
 
     {
         id: 2,
-        title: "EKAKI Chapter 2",
-        year: 2025,
-        type: "Series",
-        chapter: "Chapter 2",
-        genre: "Horror",
+        title: "Iron Man 2",
+        year: 2010,
+        type: "Movie",
+        genre: "Sci-Fi",
         rating: "IMDb",
-        duration: "Chapter 2",
+        duration: "2h 4m",
+        format: "MKV",
+
         poster:
-            "assets/posters/ekaki-chapter-2.jpg",
+            "assets/posters/ironman2.jpg",
+
         description:
-            "The mystery deepens and the presence becomes harder to escape.",
-        video:
-            "https://fembed.co/embed/zl_7v-EMrBI0F",
+            "Iron Man 2 follows billionaire Tony Stark as he fights government pressure to hand over his suit technology while dealing with new enemies.",
+
         downloads: {
-            "480p": "",
-            "720p": "",
-            "1080p": ""
-        }    
+
+            "1080p": {
+                url: "YOUR_1080P_DOWNLOAD_URL",
+                size: "2.30 GB"
+            },
+
+            "720p": {
+                url: "YOUR_720P_DOWNLOAD_URL",
+                size: "1.20 GB"
+            },
+
+            "480p": {
+                url: "YOUR_480P_DOWNLOAD_URL",
+                size: "700 MB"
+            }
+
+        }
     },
+
+
     {
         id: 3,
-        title: "EKAKI Chapter 3",
-        year: 2025,
-        type: "Series",
-        chapter: "Chapter 3",
-        genre: "Horror",
+        title: "Iron Man 3",
+        year: 2013,
+        type: "Movie",
+        genre: "Sci-Fi",
         rating: "IMDb",
-        duration: "Chapter 3",
+        duration: "2h 10m",
+        format: "MKV",
+
         poster:
-            "assets/posters/ekaki-chapter-3.jpg",
+            "assets/posters/ironman3.jpg",
+
         description:
-            "New clues emerge and the characters discover that the danger is closer than they thought.",
-        video:
-            "https://fembed.co/embed/Ct4hPfkU_j-tt",
+            "Tony Stark faces a powerful terrorist known as the Mandarin while dealing with the consequences of the alien invasion of New York.",
 
         downloads: {
-            "480p": "",
-            "720p": "",
-            "1080p": ""
-        }    
-    },
 
-    {
-        id: 4,
-        title: "EKAKI Chapter 4",
-        year: 2025,
-        type: "Series",
-        chapter: "Chapter 4",
-        genre: "Horror",
-        rating: "IMDb",
-        duration: "Chapter 4",
-        poster:
-            "assets/posters/ekaki-chapter-4.jpg",
-        description:
-            "The investigation reaches a dangerous turning point.",
-        video:
-           "https://fembed.co/embed/XM-xV8z_McYwQ",
+            "1080p": {
+                url: "YOUR_1080P_DOWNLOAD_URL",
+                size: "2.40 GB"
+            },
 
-        downloads: {
-            "480p": "",
-            "720p": "",
-            "1080p": ""
-        }    
-    },
+            "720p": {
+                url: "YOUR_720P_DOWNLOAD_URL",
+                size: "1.25 GB"
+            },
 
-    {
-        id: 5,
-        title: "EKAKI Chapter 5",
-        year: 2025,
-        type: "Series",
-        chapter: "Chapter 5",
-        genre: "Horror",
-        rating: "IMDb",
-        duration: "Chapter 5",
-        poster:
-            "assets/posters/ekaki-chapter-5.jpg",
-        description:
-            "The fifth chapter brings the story closer to its terrifying truth.",
-        video:
-           "https://fembed.co/embed/1_ihbYMPJ-WId",
-           
-        downloads: {
-            "480p": "",
-            "720p": "",
-            "1080p": ""
-        }    
-    },
-    {
-      id:6,
-      title: "Iron Man" ,
-      year: 2003,
-      type:"movie",
-      genre:"Sci-Fi",
-      rating: "IMDb",
-      poster:
-         "assets/posters/ironman.jpg",
-      description:
-         "Tony Stark builds a high-tech suit of armor to escape captivity and becomes the superhero Iron Man.",
-      video:
-         "",
-      downloads: {
-            "480p": "https://fs1.indishare.info/1ZDhluOg5uLG",
-            "720p": "https://fs1.indishare.info/1IS9k81cf4cI",
-            "1080p": "https://fs1.indishare.info/ptuVrYHdlLiV"
+            "480p": {
+                url: "YOUR_480P_DOWNLOAD_URL",
+                size: "720 MB"
+            }
+
         }
-    },
-    {
-       id:7,
-       title:"Iron Man 2",
-       year:2010,
-       type:"Movie",
-       genre:"Sci-Fi",
-       rating:"IMDb",
-       poster:
-          "assets/posters/ironman2.jpg",
-       description:
-          "Iron Man 2 follows billionaire Tony Stark as he fights government pressure to hand over his suit technology while dealing with his own slow poisoning and a vengeful Russian physicist",
-       video:
-          "",
-       downloads: {
-            "480p": "https://fs1.indishare.info/HMBa0QJQsAts",
-            "720p": "https://fs1.indishare.info/6REMcl5Z9roS",
-            "1080p": "https://fs1.indishare.info/aKMZLrSnzXDe"
-        }    
-    },
-    {
-       id:8,
-       title:"Iron Man 3",
-       year:2013,
-       type:"movie",
-       genre:"Sci-Fi",
-       raring:"IMDb",
-       poster:
-          "assets/posters/ironman3.jpg",
-       description:
-          "Tony Stark faces a powerful terrorist known as the Mandarin while dealing with severe anxiety after the alien invasion of New York",
-       video:
-          "",
-       downloads: {
-            "480p": "https://fs1.indishare.info/txghwocqvwji",
-            "720p": "https://fs1.indishare.info/TOscNrCd6mmV",
-            "1080p": "https://fs1.indishare.info/2zbmOK2tS2Py"
-        }
-    },
-   
-       
-       
-          
-      
-   
-    
+    }
 
 ];
 
 
 /* =========================
-   RECOMMENDED / MORE
+   HOME SECTIONS
 ========================= */
 
 const recommended = [
-    movies[5],
-    movies[6],
     movies[0],
     movies[1],
-    movies[2],
-    movies[7],
-    movies[4]
-    
-    
-
+    movies[2]
 ];
 
 
 const more = [
-
-    movies[5],
-    movies[4],
-    movies[6],
-    movies[7],
     movies[2],
-    movies[1],
-    movies[0]
-
+    movies[0],
+    movies[1]
 ];
-
-
-/* =========================
-   RECENTLY WATCHED
-========================= */
-
-let recentlyWatched =
-    JSON.parse(
-        localStorage.getItem(
-            "void_recent"
-        )
-    ) || [];
 
 
 /* =========================
@@ -258,7 +163,7 @@ const searchSection =
 
 
 /* =========================
-   CARD
+   MOVIE CARD
 ========================= */
 
 function movieCard(movie) {
@@ -276,10 +181,6 @@ function movieCard(movie) {
                 loading="lazy"
             >
 
-            <div class="card-play">
-                ▶
-            </div>
-
             <div class="card-info">
 
                 <div class="card-title">
@@ -290,7 +191,7 @@ function movieCard(movie) {
 
                     ${movie.year}
                     •
-                    ${movie.chapter}
+                    ${movie.type}
                     •
                     ${movie.genre}
 
@@ -305,7 +206,7 @@ function movieCard(movie) {
 
 
 /* =========================
-   RENDER
+   RENDER MOVIES
 ========================= */
 
 function renderMovies(
@@ -317,6 +218,11 @@ function renderMovies(
         document.getElementById(
             containerId
         );
+
+
+    if (!container) {
+        return;
+    }
 
 
     if (!list.length) {
@@ -349,11 +255,13 @@ function renderMovies(
                             card.dataset.id
                         );
 
+
                     const movie =
                         movies.find(
                             m =>
                                 m.id === id
                         );
+
 
                     if (movie) {
 
@@ -372,77 +280,7 @@ function renderMovies(
 
 
 /* =========================
-   RECENT
-========================= */
-
-function renderRecent() {
-
-    const recentMovies =
-        recentlyWatched
-            .map(id =>
-                movies.find(
-                    movie =>
-                        movie.id === id
-                )
-            )
-            .filter(Boolean);
-
-
-    renderMovies(
-        "recent",
-        recentMovies
-    );
-
-
-    document
-        .getElementById(
-            "recentEmpty"
-        )
-        .classList.toggle(
-            "hidden",
-            recentMovies.length !== 0
-        );
-
-}
-
-
-/* =========================
-   ADD RECENT
-========================= */
-
-function addRecent(id) {
-
-    recentlyWatched =
-        recentlyWatched.filter(
-            x => x !== id
-        );
-
-
-    recentlyWatched.unshift(id);
-
-
-    recentlyWatched =
-        recentlyWatched.slice(
-            0,
-            10
-        );
-
-
-    localStorage.setItem(
-        "void_recent",
-        JSON.stringify(
-            recentlyWatched
-        )
-    );
-
-
-    renderRecent();
-
-}
-
-
-/* =========================
-   DETAILS
+   DETAILS PAGE
 ========================= */
 
 function openDetails(movie) {
@@ -452,7 +290,14 @@ function openDetails(movie) {
 
     document.getElementById(
         "detailPoster"
-    ).src = movie.poster;
+    ).src =
+        movie.poster;
+
+
+    document.getElementById(
+        "detailPoster"
+    ).alt =
+        movie.title;
 
 
     document.getElementById(
@@ -462,15 +307,58 @@ function openDetails(movie) {
 
 
     document.getElementById(
-        "detailMeta"
+        "detailName"
     ).textContent =
-        `${movie.year} • ${movie.type} • ${movie.chapter} • ${movie.genre}`;
+        movie.title;
+
+
+    document.getElementById(
+        "detailRating"
+    ).textContent =
+        movie.rating ||
+        "Not Rated";
+
+
+    document.getElementById(
+        "detailDuration"
+    ).textContent =
+        movie.duration ||
+        "Not Available";
+
+
+    document.getElementById(
+        "detailFormat"
+    ).textContent =
+        movie.format ||
+        "Not Available";
 
 
     document.getElementById(
         "detailDescription"
     ).textContent =
-        movie.description;
+        movie.description ||
+        "No description available.";
+
+
+    document.getElementById(
+        "size1080p"
+    ).textContent =
+        movie.downloads?.["1080p"]?.size ||
+        "Size unavailable";
+
+
+    document.getElementById(
+        "size720p"
+    ).textContent =
+        movie.downloads?.["720p"]?.size ||
+        "Size unavailable";
+
+
+    document.getElementById(
+        "size480p"
+    ).textContent =
+        movie.downloads?.["480p"]?.size ||
+        "Size unavailable";
 
 
     document.getElementById(
@@ -478,6 +366,17 @@ function openDetails(movie) {
     ).classList.remove(
         "hidden"
     );
+
+
+    document.body.classList.add(
+        "details-open"
+    );
+
+
+    window.scrollTo({
+        top: 0,
+        behavior: "instant"
+    });
 
 }
 
@@ -494,8 +393,17 @@ function closeDetails() {
         "hidden"
     );
 
+
+    document.body.classList.remove(
+        "details-open"
+    );
+
 }
 
+
+/* =========================
+   CLOSE BUTTON
+========================= */
 
 document.getElementById(
     "closeButton"
@@ -505,117 +413,69 @@ document.getElementById(
 );
 
 
-document.getElementById(
-    "closeModal"
-).addEventListener(
-    "click",
-    closeDetails
-);
-
-
 /* =========================
-   WATCH
+   DOWNLOADS
 ========================= */
 
-document.getElementById(
-    "watchButton"
-).addEventListener(
-    "click",
-    () => {
+document
+    .querySelectorAll(
+        ".download-option"
+    )
+    .forEach(
+        button => {
 
-        if (!selectedMovie) {
-            return;
+            button.addEventListener(
+                "click",
+                () => {
+
+                    if (
+                        !selectedMovie ||
+                        !selectedMovie.downloads
+                    ) {
+
+                        return;
+
+                    }
+
+
+                    const quality =
+                        button.dataset.quality;
+
+
+                    const download =
+                        selectedMovie
+                            .downloads[quality];
+
+
+                    if (
+                        !download ||
+                        !download.url ||
+                        download.url.startsWith(
+                            "YOUR_"
+                        )
+                    ) {
+
+                        alert(
+                            quality +
+                            " download is not available yet."
+                        );
+
+                        return;
+
+                    }
+
+
+                    window.open(
+                        download.url,
+                        "_blank",
+                        "noopener,noreferrer"
+                    );
+
+                }
+            );
+
         }
-
-
-        addRecent(
-            selectedMovie.id
-        );
-
-
-        closeDetails();
-
-
-        openPlayer(
-            selectedMovie
-        );
-
-    }
-);
-
-
-/* =========================
-   PLAYER
-========================= */
-
-function openPlayer(movie) {
-
-    const player =
-        document.getElementById("player");
-
-    const video =
-        document.getElementById("videoPlayer");
-
-    const message =
-        document.getElementById("playerMessage");
-
-
-    player.classList.remove("hidden");
-
-
-    if (!movie.video) {
-
-        video.style.display = "none";
-
-        message.style.display = "block";
-
-        message.textContent =
-            "Video stream will be connected here.";
-
-        return;
-
-    }
-
-
-    message.style.display = "none";
-
-    video.style.display = "block";
-
-    video.src = movie.video;
-
-}
-
-
-/* =========================
-   CLOSE PLAYER
-========================= */
-
-document.getElementById(
-    "playerClose"
-).addEventListener(
-    "click",
-    () => {
-
-        const player =
-            document.getElementById(
-                "player"
-            );
-
-        const video =
-            document.getElementById(
-                "videoPlayer"
-            );
-
-
-        video.src = "";
-
-
-        player.classList.add(
-            "hidden"
-        );
-
-    }
-);
+    );
 
 
 /* =========================
@@ -644,17 +504,18 @@ searchInput.addEventListener(
                 "hidden"
             );
 
+
             renderMovies(
                 "recommended",
                 recommended
             );
 
-            renderRecent();
 
             renderMovies(
                 "more",
                 more
             );
+
 
             return;
 
@@ -679,9 +540,10 @@ searchInput.addEventListener(
                     const text =
                         [
                             movie.title,
-                            movie.chapter,
                             movie.genre,
-                            movie.type
+                            movie.type,
+                            movie.year,
+                            movie.format
                         ]
                         .join(" ")
                         .toLowerCase();
@@ -828,11 +690,38 @@ document.addEventListener(
     "mousemove",
     event => {
 
+        if (!cursorGlow) {
+            return;
+        }
+
+
         cursorGlow.style.left =
             event.clientX + "px";
 
+
         cursorGlow.style.top =
             event.clientY + "px";
+
+    }
+);
+
+
+/* =========================
+   ESCAPE KEY
+========================= */
+
+document.addEventListener(
+    "keydown",
+    event => {
+
+        if (
+            event.key === "Escape" &&
+            selectedMovie
+        ) {
+
+            closeDetails();
+
+        }
 
     }
 );
@@ -846,9 +735,6 @@ renderMovies(
     "recommended",
     recommended
 );
-
-
-renderRecent();
 
 
 renderMovies(
@@ -868,85 +754,22 @@ window.addEventListener(
         setTimeout(
             () => {
 
-                document
-                    .getElementById(
+                const loadingScreen =
+                    document.getElementById(
                         "loadingScreen"
-                    )
-                    .classList.add(
+                    );
+
+
+                if (loadingScreen) {
+
+                    loadingScreen.classList.add(
                         "hidden"
                     );
 
+                }
+
             },
             500
-        );
-
-    }
-);
-const downloadButton =
-    document.getElementById("downloadButton");
-
-const downloadMenu =
-    document.getElementById("downloadMenu");
-
-
-downloadButton.addEventListener(
-    "click",
-    () => {
-
-        downloadMenu.classList.toggle("hidden");
-
-    }
-);
-
-
-document.querySelectorAll(
-    ".download-option"
-).forEach(
-    button => {
-
-        button.addEventListener(
-            "click",
-            () => {
-
-                if (
-                    !selectedMovie ||
-                    !selectedMovie.downloads
-                ) {
-                    return;
-                }
-
-
-                const quality =
-                    button.dataset.quality;
-
-
-                const url =
-                    selectedMovie.downloads[quality];
-
-
-                if (!url) {
-
-                    alert(
-                        quality +
-                        " download is not available yet."
-                    );
-
-                    return;
-
-                }
-
-
-                window.open(
-                    url,
-                    "_blank"
-                );
-
-
-                downloadMenu.classList.add(
-                    "hidden"
-                );
-
-            }
         );
 
     }
