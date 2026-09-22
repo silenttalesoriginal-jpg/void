@@ -150,7 +150,7 @@ const movies = [
        poster:
           "assets/posters/ironman2.jpg",
        description:
-          "ron Man 2 follows billionaire Tony Stark as he fights government pressure to hand over his suit technology while dealing with his own slow poisoning and a vengeful Russian physicist",
+          "Iron Man 2 follows billionaire Tony Stark as he fights government pressure to hand over his suit technology while dealing with his own slow poisoning and a vengeful Russian physicist",
        video:
           "",
        downloads: {
@@ -158,6 +158,25 @@ const movies = [
             "720p": "https://fs1.indishare.info/6REMcl5Z9roS",
             "1080p": "https://fs1.indishare.info/aKMZLrSnzXDe"
         }    
+    },
+    {
+       id:8,
+       title:"Iron Man 3",
+       year:2013,
+       type:"movie",
+       genre:"Sci-Fi",
+       raring:"IMDb",
+       poster:
+          "assets/posters/ironman3.jpg",
+       description:
+          "Tony Stark faces a powerful terrorist known as the Mandarin while dealing with severe anxiety after the alien invasion of New York",
+       video:
+          "",
+       downloads: {
+            "480p": "",
+            "720p": "",
+            "1080p: ""
+        }
     },
    
        
@@ -180,7 +199,7 @@ const recommended = [
     movies[0],
     movies[1],
     movies[2],
-    movies[3],
+    movies[7],
     movies[4]
     
     
@@ -193,7 +212,7 @@ const more = [
     movies[5],
     movies[4],
     movies[6],
-    movies[3],
+    movies[7],
     movies[2],
     movies[1],
     movies[0]
