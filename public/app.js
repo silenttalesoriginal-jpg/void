@@ -154,7 +154,7 @@ const movies = [
        video:
           "",
        downloads: {
-            "480p": "",
+            "480p": "https://fs1.indishare.info/HMBa0QJQsAts",
             "720p": "https://fs1.indishare.info/6REMcl5Z9roS",
             "1080p": "https://fs1.indishare.info/aKMZLrSnzXDe"
         }    
