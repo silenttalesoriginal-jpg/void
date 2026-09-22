@@ -171,9 +171,9 @@ const movies = [
        video:
           "",
        downloads: {
-            "480p": "",
-            "720p": "",
-            "1080p": ""
+            "480p": "https://fs1.indishare.info/txghwocqvwji",
+            "720p": "https://fs1.indishare.info/TOscNrCd6mmV",
+            "1080p": "https://fs1.indishare.info/2zbmOK2tS2Py"
         }
     },
    
