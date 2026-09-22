@@ -84,7 +84,7 @@ const movies = [
         year: 2013,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "IMDb",
+        rating: "7.1",
         duration: "2h 10m",
         format: "MKV",
 
@@ -92,7 +92,7 @@ const movies = [
             "assets/posters/ironman3.jpg",
 
         description:
-            "Tony Stark faces a powerful terrorist known as the Mandarin while dealing with the consequences of the alien invasion of New York.",
+            "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
 
         downloads: {
 
