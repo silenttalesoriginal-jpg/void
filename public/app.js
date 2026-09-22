@@ -47,7 +47,7 @@ const movies = [
         year: 2010,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "IMDb",
+        rating: "6.4",
         duration: "2h 4m",
         format: "MKV",
 
@@ -55,7 +55,7 @@ const movies = [
             "assets/posters/ironman2.jpg",
 
         description:
-            "Iron Man 2 follows billionaire Tony Stark as he fights government pressure to hand over his suit technology while dealing with new enemies.",
+            "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful madman with ties to his father's legacy.",
 
         downloads: {
 
