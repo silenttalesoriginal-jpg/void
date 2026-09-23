@@ -320,7 +320,7 @@ const recommended = [
     movies[1],
     movies[2],
     movies[4],
-    movues[8]
+    movies[8]
 ];
 
 
