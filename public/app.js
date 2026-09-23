@@ -285,7 +285,7 @@ const movies = [
        poster:
           "assets/posters/demoninfinitycastle.jpg",
        description:
-          "Arne Cheyenne Johnson stabs and murders his landlord, claiming to be under demonic possession while Ed and Lorraine Warren investigate the case and try to prove his innocence.", 
+          "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro and the Hashira face terrifying Upper Rank Hindi mein demons in a desperate fight as the final battle against Muzan Kibutsuji begins.", 
        downloads: {
 
             "1080p": {
