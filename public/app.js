@@ -310,12 +310,44 @@ const movies = [
        title:"Cars",
        year:2006,
        type:"Movie",
-       genre:"Buddy Comedy",
+       genre:"Comedy",
        rating:"7.3/10",
        duration:"1h 56m",
        format:"MKV",
        poster:
           "assets/posters/cars.jpg",
+       description:
+          "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/d6Xl5TGt0Mpi",
+                size: "703 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/nBEsG4B3Sza9",
+                size: "363 MB"
+            }
+
+        }
+    },
+    {
+       id: 11,
+       title:"Cars 2",
+       year:2011,
+       type:"Movie",
+       genre:"Comedy",
+       rating:"6.2/10",
+       duration:"1h 46m",
+       format:"MKV",
+       poster:
+          "assets/posters/cars2.jpg",
        description:
           "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.", 
        downloads: {
