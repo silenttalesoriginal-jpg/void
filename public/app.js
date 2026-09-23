@@ -139,7 +139,7 @@ const movies = [
             },
 
             "480p": {
-                url: "urlhere",
+                url: "https://fs1.indishare.info/GGD5AEkPAys3",
                 size: "369 MB"
             }
 
@@ -160,9 +160,9 @@ const recommended = [
 
 
 const more = [
-    movies[2],
-    movies[0],
-    movies[1]
+    
+    
+    movies[3]
 ];
 
 
