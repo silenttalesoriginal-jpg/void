@@ -208,6 +208,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 7,
+       title:"The Conjuring Last Rites",
+       year:2025,
+       type:"Movie",
+       genre:"Horror",
+       rating:"6.4/10",
+       duration:"2h 15m",
+       format:"MKV",
+       poster:
+          "assets/posters/lastrites.jpg",
+       description:
+          "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.", 
+       downloads: {
+
+            "1080p": {
+                url: "https://fs1.indishare.info/fiCo3YrwQuTd",
+                size: "2.76 GB"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/BJdfE5MUagb6",
+                size: "1.25 GB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/HVxZiSZ1iKO7",
+                size: "477 MB"
+            }
+
+        }
     }
         
 
@@ -230,7 +262,8 @@ const more = [
     
     
     movies[3],
-    movies[5]
+    movies[5],
+    movies[6]
 ];
 
 
