@@ -130,7 +130,8 @@ const movies = [
 
             "1080p": {
                 url: "",
-                size: "Not Available "
+                size: "2 GB"
+                   
             },
 
             "720p": {
