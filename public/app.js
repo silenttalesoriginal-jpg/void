@@ -272,7 +272,40 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 9,
+       title:"Demon Slayer Infinity Castle",
+       year:2025,
+       type:"Movie",
+       genre:"Animation",
+       rating:"8.4/10",
+       duration:"2h 35m",
+       format:"MKV",
+       poster:
+          "assets/posters/demoninfinitycastle.jpg",
+       description:
+          "Arne Cheyenne Johnson stabs and murders his landlord, claiming to be under demonic possession while Ed and Lorraine Warren investigate the case and try to prove his innocence.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "3.3 GB"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/PFBMzOCCsn7d",
+                size: "1.5 GB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/h2LkYI0QeRGn",
+                size: "597 MB"
+            }
+
+        }
     }
+   
         
 
 ];
