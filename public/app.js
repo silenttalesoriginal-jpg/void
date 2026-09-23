@@ -176,6 +176,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 6,
+       title:"The Conjuring 2",
+       year:2016,
+       type:"Movie",
+       genre:"Horror",
+       rating:"7.3/10",
+       duration:"2h 14m",
+       format:"MKV",
+       poster:
+          "assets/posters/conjuring2.jpg",
+       description:
+          "Ed and Lorraine Warren travel to North London to help a single mother raising four children alone in a house plagued by a supernatural spirit.",
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/iLJygqzz8nAF",
+                size: "1 GB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/2LB4LczoRFlz",
+                size: "407 MB"
+            }
+
+        }
     }
         
 
@@ -197,7 +229,8 @@ const recommended = [
 const more = [
     
     
-    movies[3]
+    movies[3],
+    movies[5]
 ];
 
 
