@@ -317,7 +317,7 @@ const movies = [
        poster:
           "assets/posters/cars.jpg",
        description:
-          "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro and the Hashira face terrifying Upper Rank Hindi mein demons in a desperate fight as the final battle against Muzan Kibutsuji begins.", 
+          "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.", 
        downloads: {
 
             "1080p": {
