@@ -326,7 +326,7 @@ const movies = [
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/gAXAHqWPIz20",
+                url: "https://fs1.indishare.info/d6Xl5TGt0Mpi",
                 size: "703 MB"
             },
 
