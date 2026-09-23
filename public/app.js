@@ -10,7 +10,7 @@ const movies = [
         year: 2003,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "8.3/10",
+        rating: "8.3",
         duration: "2h 6m",
         format: "MKV",
 
@@ -47,7 +47,7 @@ const movies = [
         year: 2010,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "6.4/10",
+        rating: "6.4",
         duration: "2h 4m",
         format: "MKV",
 
@@ -84,7 +84,7 @@ const movies = [
         year: 2013,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "7.1/10",
+        rating: "7.1",
         duration: "2h 10m",
         format: "MKV",
 
@@ -119,7 +119,7 @@ const movies = [
        year:2013,
        type:"Movie",
        genre:"Horror",
-       rating:"7.5/10",
+       rating:"7.5",
        duration:"1h 52m",
        format:"MKV",
        poster:
