@@ -318,7 +318,6 @@ const movies = [
           "assets/posters/cars.jpg",
        description:
           "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.",
-      
        downloads: {
 
             "1080p": {
@@ -364,7 +363,7 @@ const movies = [
             },
 
             "480p": {
-                url: https://fs1.indishare.info/Qz1Ak88TZEDF",
+                url: "https://fs1.indishare.info/Qz1Ak88TZEDF",
                 size: "492 MB"
             }
 
