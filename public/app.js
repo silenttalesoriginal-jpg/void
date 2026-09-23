@@ -289,7 +289,7 @@ const movies = [
        downloads: {
 
             "1080p": {
-                url: "",
+                url: "https://fs1.indishare.info/djrc3yPUwbGe",
                 size: "3.3 GB"
             },
 
