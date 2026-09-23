@@ -1,9 +1,4 @@
-/* =========================
-   VOID CONTENT
-========================= */
-
 const movies = [
-
     {
         id: 1,
         title: "Iron Man",
@@ -13,34 +8,23 @@ const movies = [
         rating: "8.3",
         duration: "2h 6m",
         format: "MKV",
-
-        poster:
-            "assets/posters/ironman.jpg",
-
-        description:
-            "Tony Stark builds a high-tech suit of armor to escape captivity and becomes the superhero Iron Man.",
-
+        poster: "assets/posters/ironman.jpg",
+        description: "Tony Stark builds a high-tech suit of armor to escape captivity and becomes the superhero Iron Man.",
         downloads: {
-
             "1080p": {
                 url: "https://fs1.indishare.info/ptuVrYHdlLiV",
                 size: "2.5 GB"
             },
-
             "720p": {
                 url: "https://fs1.indishare.info/1IS9k81cf4cI",
                 size: "1.2 GB"
             },
-
             "480p": {
                 url: "https://fs1.indishare.info/1ZDhluOg5uLG",
                 size: "439 MB"
             }
-
         }
     },
-
-
     {
         id: 2,
         title: "Iron Man 2",
@@ -50,34 +34,23 @@ const movies = [
         rating: "6.4",
         duration: "2h 4m",
         format: "MKV",
-
-        poster:
-            "assets/posters/ironman2.jpg",
-
-        description:
-            "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful madman with ties to his father's legacy.",
-
+        poster: "assets/posters/ironman2.jpg",
+        description: "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful madman with ties to his father's legacy.",
         downloads: {
-
             "1080p": {
                 url: "https://fs1.indishare.info/aKMZLrSnzXDe",
                 size: "2.5 GB"
             },
-
             "720p": {
                 url: "https://fs1.indishare.info/6REMcl5Z9roS",
                 size: "1.2 GB"
             },
-
             "480p": {
                 url: "https://fs1.indishare.info/HMBa0QJQsAts",
                 size: "437 MB"
             }
-
         }
     },
-
-
     {
         id: 3,
         title: "Iron Man 3",
@@ -87,65 +60,49 @@ const movies = [
         rating: "7.1",
         duration: "2h 10m",
         format: "MKV",
-
-        poster:
-            "assets/posters/ironman3.jpg",
-
-        description:
-            "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
-
+        poster: "assets/posters/ironman3.jpg",
+        description: "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
         downloads: {
-
             "1080p": {
                 url: "https://fs1.indishare.info/2zbmOK2tS2Py",
                 size: "3 GB"
             },
-
             "720p": {
                 url: "https://fs1.indishare.info/TOscNrCd6mmV",
                 size: "1 GB"
             },
-
             "480p": {
                 url: "https://fs1.indishare.info/txghwocqvwji",
                 size: "423 MB"
             }
-
         }
     },
     {
-       id: 4,
-       title:"The Conjuring",
-       year:2013,
-       type:"Movie",
-       genre:"Horror",
-       rating:"7.5",
-       duration:"1h 52m",
-       format:"MKV",
-       poster:
-          "assets/posters/conjuring.jpg",
-       description:
-          "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
-       downloads: {
-
+        id: 4,
+        title: "The Conjuring",
+        year: 2013,
+        type: "Movie",
+        genre: "Horror",
+        rating: "7.5",
+        duration: "1h 52m",
+        format: "MKV",
+        poster: "assets/posters/conjuring.jpg",
+        description: "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+        downloads: {
             "1080p": {
                 url: "",
                 size: "2 GB"
-                   
             },
-
             "720p": {
                 url: "https://fs1.indishare.info/kvQ4z7H7c9x5",
                 size: "1 GB"
             },
-
             "480p": {
                 url: "https://fs1.indishare.info/GGD5AEkPAys3",
                 size: "369 MB"
             }
-
         }
-
+    } // Added missing bracket here
 ];
 
 
