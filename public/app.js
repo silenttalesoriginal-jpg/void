@@ -144,7 +144,40 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 5,
+       title:"Spider Man Brand New Day",
+       year:2026,
+       type:"Movie",
+       genre:"Action",
+       rating:"8.0/10",
+       duration:"2h 25m",
+       format:"MKV",
+       poster:
+          "assets/posters/brandnewday.jpg",
+       description:
+          "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges.",
+       downloads: {
+
+            "1080p": {
+                url: "https://fs1.indishare.info/0hxxuDcGf7Qn",
+                size: "2.9 GB"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/r7AM656lsAUN",
+                size: "1.3 GB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/je5VZUIRrQYJ",
+                size: "530 MB"
+            }
+
+        }
     }
+        
 
 ];
 
@@ -156,7 +189,8 @@ const movies = [
 const recommended = [
     movies[0],
     movies[1],
-    movies[2]
+    movies[2],
+    movies[4]
 ];
 
 
