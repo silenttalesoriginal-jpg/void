@@ -296,7 +296,7 @@ const more = [
     movies[3],
     movies[5],
     movies[6],
-    movies[8]
+    movies[7]
 ];
 
 
