@@ -317,22 +317,22 @@ const movies = [
        poster:
           "assets/posters/cars.jpg",
        description:
-          "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.", 
+          "Star race car Lightning McQueen and his pal Mater head overseas to compete in the World Grand Prix race. But the road to the championship becomes rocky as Mater gets caught up in an intriguing adventure of his own: international espionage.", 
        downloads: {
 
             "1080p": {
                 url: "",
-                size: "Not available"
+                size: "2.4 GB"
             },
 
             "720p": {
                 url: "https://fs1.indishare.info/d6Xl5TGt0Mpi",
-                size: "703 MB"
+                size: "1.22 GB"
             },
 
             "480p": {
                 url: "https://fs1.indishare.info/nBEsG4B3Sza9",
-                size: "363 MB"
+                size: "492 MB"
             }
 
         }
