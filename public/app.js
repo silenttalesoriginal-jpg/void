@@ -240,6 +240,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 8,
+       title:"The Conjuring The Devil Made Me To Do It",
+       year:2025,
+       type:"Movie",
+       genre:"Horror",
+       rating:"6.3/10",
+       duration:"1h 52m",
+       format:"MKV",
+       poster:
+          "assets/posters/conjuringdevil.jpg",
+       description:
+          "Arne Cheyenne Johnson stabs and murders his landlord, claiming to be under demonic possession while Ed and Lorraine Warren investigate the case and try to prove his innocence.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/PFBMzOCCsn7d",
+                size: "971 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/h2LkYI0QeRGn",
+                size: "381 MB"
+            }
+
+        }
     }
         
 
@@ -263,7 +295,8 @@ const more = [
     
     movies[3],
     movies[5],
-    movies[6]
+    movies[6],
+    movies[8]
 ];
 
 
