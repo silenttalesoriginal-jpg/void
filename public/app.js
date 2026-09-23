@@ -161,7 +161,7 @@ const recommended = [
 
 const more = [
     
-    
+    movies[0],
     movies[3]
 ];
 
