@@ -364,7 +364,7 @@ const movies = [
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/nBEsG4B3Sza9",
+                url: https://fs1.indishare.info/Qz1Ak88TZEDF",
                 size: "492 MB"
             }
 
@@ -386,7 +386,8 @@ const recommended = [
     movies[2],
     movies[4],
     movies[8],
-    movies[9]
+    movies[9],
+    movies[10]
 ];
 
 
