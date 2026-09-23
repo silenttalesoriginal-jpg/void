@@ -129,18 +129,18 @@ const movies = [
        downloads: {
 
             "1080p": {
-                url: "urlhere",
-                size: "3 GB"
+                url: "",
+                size: "Not Available "
             },
 
             "720p": {
-                url: "urlhere",
+                url: "https://fs1.indishare.info/kvQ4z7H7c9x5",
                 size: "1 GB"
             },
 
             "480p": {
                 url: "urlhere",
-                size: "423 MB"
+                size: "369 MB"
             }
 
         }
