@@ -10,7 +10,7 @@ const movies = [
         year: 2003,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "8.3",
+        rating: "8.3/10",
         duration: "2h 6m",
         format: "MKV",
 
@@ -47,7 +47,7 @@ const movies = [
         year: 2010,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "6.4",
+        rating: "6.4/10",
         duration: "2h 4m",
         format: "MKV",
 
@@ -84,7 +84,7 @@ const movies = [
         year: 2013,
         type: "Movie",
         genre: "Sci-Fi",
-        rating: "7.1",
+        rating: "7.1/10",
         duration: "2h 10m",
         format: "MKV",
 
@@ -112,7 +112,38 @@ const movies = [
             }
 
         }
-    }
+    },
+    {
+       id: 4,
+       title:"The Conjuring",
+       year:2013,
+       type:"Movie",
+       genre:"Horror",
+       rating:"7.5/10",
+       duration:"1h 52m",
+       format:"MKV",
+       poster:
+          "assets/posters/conjuring.jpg",
+       description:
+          "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+       downloads: {
+
+            "1080p": {
+                url: "urlhere",
+                size: "3 GB"
+            },
+
+            "720p": {
+                url: "urlhere",
+                size: "1 GB"
+            },
+
+            "480p": {
+                url: "urlhere",
+                size: "423 MB"
+            }
+
+        }
 
 ];
 
