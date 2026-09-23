@@ -304,6 +304,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 10,
+       title:"Cars",
+       year:2006,
+       type:"Movie",
+       genre:"Buddy Comedy",
+       rating:"7.3/10",
+       duration:"1h 56m",
+       format:"MKV",
+       poster:
+          "assets/posters/cars.jpg",
+       description:
+          "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro and the Hashira face terrifying Upper Rank Hindi mein demons in a desperate fight as the final battle against Muzan Kibutsuji begins.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/gAXAHqWPIz20",
+                size: "703 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/71aD0T5yjwmE",
+                size: "363 MB"
+            }
+
+        }
     }
    
         
