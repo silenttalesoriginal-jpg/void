@@ -464,6 +464,37 @@ const movies = [
             }
 
         }
+    },
+       id: 15,
+       title:"Hotel Transylvania",
+       year:2012,
+       type:"Movie",
+       genre:"Comedy,Animation",
+       rating:"7.1/10",
+       duration:"1h 31m",
+       format:"MKV",
+       poster:
+          "assets/posters/hotel1.jpg",
+       description:
+          "Two young friends find a magic book that brings a ventriloquist's dummy to life.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/f66uuLeNhM5y",
+                size: "922 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/U9Z0BEPry957",
+                size: "295 MB"
+            }
+
+        }
     }
    
         
