@@ -1166,17 +1166,76 @@ main {
     font-weight: 600;
     text-align: center;
 }
+.stream-guide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 30px;
+}
+
 .how-to-stream {
-    display: inline-block;
-    margin-bottom: 22px;
-    color: #2196ff;
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: underline;
-    cursor: pointer;
-    transition: 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    padding: 15px 28px;
+
+    color: #ffffff;
+    background: linear-gradient(
+        135deg,
+        rgba(45, 125, 255, 0.18),
+        rgba(90, 70, 255, 0.12)
+    );
+
+    border: 1px solid rgba(80, 150, 255, 0.45);
+    border-radius: 12px;
+
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 8px 30px rgba(30, 100, 255, 0.12),
+        inset 0 0 20px rgba(80, 150, 255, 0.04);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease,
+        background 0.2s ease;
 }
 
 .how-to-stream:hover {
-    color: #66b5ff;
+    transform: translateY(-2px);
+
+    border-color: rgba(90, 165, 255, 0.8);
+
+    background: linear-gradient(
+        135deg,
+        rgba(45, 125, 255, 0.28),
+        rgba(90, 70, 255, 0.20)
+    );
+
+    box-shadow:
+        0 10px 35px rgba(30, 100, 255, 0.22),
+        0 0 18px rgba(70, 140, 255, 0.12);
 }
+
+.stream-icon {
+    font-size: 17px;
+}
+
+.stream-arrow {
+    font-size: 20px;
+    opacity: 0.75;
+    transition: transform 0.2s ease;
+}
+
+.how-to-stream:hover .stream-arrow {
+    transform: translate(2px, -2px);
+}
+
+
