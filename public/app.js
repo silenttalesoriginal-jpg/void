@@ -491,7 +491,7 @@ const movies = [
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/U9Z0BEPry957",
+                url: "https://fs1.indishare.info/BCpl6HDpNvpi",
                 size: "295 MB"
             }
 
