@@ -435,7 +435,7 @@ const movies = [
     },
     {
        id: 14,
-       title:"Goosebumps 2",
+       title:"Goosebumps 2 Haunted Halloween",
        year:2018,
        type:"Movie",
        genre:"Comedy,Horror",
@@ -454,13 +454,13 @@ const movies = [
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/G2e40DsMTGQs",
-                size: "842 MB"
+                url: "https://fs1.indishare.info/f66uuLeNhM5y",
+                size: "922 MB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/du5Ho3IdDqDe",
-                size: "338 MB"
+                url: "https://fs1.indishare.info/U9Z0BEPry957",
+                size: "295 MB"
             }
 
         }
@@ -494,7 +494,8 @@ const more = [
     movies[5],
     movies[6],
     movies[7],
-    movies[12]
+    movies[12],
+    movies[13]
 ];
 
 
