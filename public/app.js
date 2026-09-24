@@ -465,6 +465,7 @@ const movies = [
 
         }
     },
+    {
        id: 15,
        title:"Hotel Transylvania",
        year:2012,
@@ -476,17 +477,17 @@ const movies = [
        poster:
           "assets/posters/hotel1.jpg",
        description:
-          "Two young friends find a magic book that brings a ventriloquist's dummy to life.", 
+          "Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teenaged daughter.", 
        downloads: {
 
             "1080p": {
                 url: "",
-                size: "Not Available"
+                size: "1.8 GB"
             },
 
             "720p": {
                 url: "https://fs1.indishare.info/f66uuLeNhM5y",
-                size: "922 MB"
+                size: "784 MB"
             },
 
             "480p": {
