@@ -432,6 +432,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 14,
+       title:"Goosebumps 2",
+       year:2018,
+       type:"Movie",
+       genre:"Comedy,Horror",
+       rating:"5.6/10",
+       duration:"1h 30m",
+       format:"MKV",
+       poster:
+          "assets/posters/Goosebumps2.jpg",
+       description:
+          "Two young friends find a magic book that brings a ventriloquist's dummy to life.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/G2e40DsMTGQs",
+                size: "842 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/du5Ho3IdDqDe",
+                size: "338 MB"
+            }
+
+        }
     }
    
         
