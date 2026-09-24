@@ -368,6 +368,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 12,
+       title:"Cars 3",
+       year:2017,
+       type:"Movie",
+       genre:"Comedy",
+       rating:"6.7/10",
+       duration:"1h 42m",
+       format:"MKV",
+       poster:
+          "assets/posters/cars3.jpg",
+       description:
+          "Lightning McQueen sets out to prove to a new generation of racers that he's still the best race car in the world.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/4KPwPER4n6S1",
+                size: "848 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/Qz1Ak88TZEDF",
+                size: "320 MB"
+            }
+
+        }
     }
    
         
@@ -386,7 +418,8 @@ const recommended = [
     movies[4],
     movies[8],
     movies[9],
-    movies[10]
+    movies[10],
+    movies[11]
 ];
 
 
