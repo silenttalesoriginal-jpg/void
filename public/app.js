@@ -400,6 +400,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 13,
+       title:"Goosebumps",
+       year:2015,
+       type:"Movie",
+       genre:"Comedy,Horror",
+       rating:"6.3/10",
+       duration:"1h 43m",
+       format:"MKV",
+       poster:
+          "assets/posters/Goosebumps.jpg",
+       description:
+          "A teenager teams up with the daughter of young-adult horror author R.L. Stine after the writer's imaginary demons are set free on the town of Madison, Delaware", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/4KPwPER4n6S1",
+                size: "848 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/Qz1Ak88TZEDF",
+                size: "320 MB"
+            }
+
+        }
     }
    
         
