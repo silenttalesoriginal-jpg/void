@@ -422,13 +422,13 @@ const movies = [
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/4KPwPER4n6S1",
-                size: "848 MB"
+                url: "https://fs1.indishare.info/G2e40DsMTGQs",
+                size: "842 MB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/Qz1Ak88TZEDF",
-                size: "320 MB"
+                url: "https://fs1.indishare.info/du5Ho3IdDqDe",
+                size: "338 MB"
             }
 
         }
