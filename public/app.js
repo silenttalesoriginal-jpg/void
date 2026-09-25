@@ -508,7 +508,7 @@ const movies = [
        poster:
           "assets/posters/hotel2.jpg",
        description:
-          "Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teenaged daughter.", 
+          "Dracula and his friends try to bring out the monster in his half human, half vampire grandson in order to keep Mavis from leaving the hotel.", 
        downloads: {
 
             "1080p": {
