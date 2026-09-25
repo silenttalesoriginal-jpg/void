@@ -810,68 +810,32 @@ document.getElementById(
 
 
 /* =========================
-   DOWNLOADS
+   DOWNLOADS - FIX
 ========================= */
 
-document
-    .querySelectorAll(
-        ".download-option"
-    )
-    .forEach(
-        button => {
+document.querySelectorAll(".download-option").forEach(button => {
+    button.addEventListener("click", () => {
 
-            button.addEventListener(
-                "click",
-                () => {
-
-                    if (
-                        !selectedMovie ||
-                        !selectedMovie.downloads
-                    ) {
-
-                        return;
-
-                    }
-
-
-                    const quality =
-                        button.dataset.quality;
-
-
-                    const download =
-                        selectedMovie
-                            .downloads[quality];
-
-
-                    if (
-                        !download ||
-                        !download.url ||
-                        download.url.startsWith(
-                            "YOUR_"
-                        )
-                    ) {
-
-                        alert(
-                            quality +
-                            " download is not available yet."
-                        );
-
-                        return;
-
-                    }
-
-
-                    window.open(
-                        download.url,
-                        "_blank",
-                        "noopener,noreferrer"
-                    );
-
-                }
-            );
-
+        if (!selectedMovie || !selectedMovie.downloads) {
+            return;
         }
-    );
+
+        const quality = button.dataset.quality;
+        const download = selectedMovie.downloads[quality];
+
+        if (!download || !download.url ||
+            download.url.startsWith("YOUR_")) {
+            alert(quality + " download is not available yet.");
+            return;
+        }
+
+        // Open the exact existing URL
+        window.open(download.url, "_blank");
+
+    });
+});
+
+
 
 
 /* =========================
