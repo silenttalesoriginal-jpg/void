@@ -3,7 +3,6 @@
 ========================= */
 
 const movies = [
-
     {
         id: 1,
         title: "Iron Man",
