@@ -495,6 +495,37 @@ const movies = [
             }
 
         }
+    },
+       id: 16,
+       title:"Hotel Transylvania 2",
+       year:2015,
+       type:"Movie",
+       genre:"Comedy,Animation",
+       rating:"6.6/10",
+       duration:"1h 29m",
+       format:"MKV",
+       poster:
+          "assets/posters/hotel2.jpg",
+       description:
+          "Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teenaged daughter.", 
+       downloads: {
+
+            "1080p": {
+                url: "https://fs1.indishare.info/5jlqEnL18PiA",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://fs1.indishare.info/P1c0tlKIFcAS",
+                size: "781 MB"
+            },
+
+            "480p": {
+                url: "https://fs1.indishare.info/BCpl6HDpNvpi",
+                size: "288 MB"
+            }
+
+        }
     }
    
         
