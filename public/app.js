@@ -558,6 +558,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 18,
+       title:"Hotel Transylvania 4 Transformania",
+       year:2022,
+       type:"Movie",
+       genre:"Comedy,Animation",
+       rating:"6/10",
+       duration:"1h 38m",
+       format:"MKV",
+       poster:
+          "assets/posters/hotel4.jpg",
+       description:
+          "After one experiment, Johnny turns into a monster and everyone else becomes human. Now it has to be seen whether they will be able to reverse this experiment.", 
+       downloads: {
+
+            "1080p": {
+                url: "https://files.indi-share.com/CxgXF80x0d8u",
+                size: "1.5 GB"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/N1ZXnJGljk6e",
+                size: "907 MB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/KKoEOc090KFH",
+                size: "324 MB"
+            }
+
+        }
     }
    
         
@@ -592,7 +624,8 @@ const more = [
     movies[13],
     movies[14],
     movies[15],
-    movies[16]
+    movies[16],
+    movies[17]
 ];
 
 
