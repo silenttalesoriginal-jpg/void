@@ -21,17 +21,17 @@ const movies = [
         downloads: {
 
             "1080p": {
-                url: "https://fs1.indishare.info/ptuVrYHdlLiV",
+                url: "https://files.indi-share.com/ptuVrYHdlLiV",
                 size: "2.5 GB"
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/1IS9k81cf4cI",
+                url: "https://files.indi-share.com/1IS9k81cf4cI",
                 size: "1.2 GB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/1ZDhluOg5uLG",
+                url: "https://files.indi-share.com/1ZDhluOg5uLG",
                 size: "439 MB"
             }
 
@@ -58,17 +58,17 @@ const movies = [
         downloads: {
 
             "1080p": {
-                url: "https://fs1.indishare.info/aKMZLrSnzXDe",
+                url: "https://files.indi-share.com/aKMZLrSnzXDe",
                 size: "2.5 GB"
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/6REMcl5Z9roS",
+                url: "https://files.indi-share.com/6REMcl5Z9roS",
                 size: "1.2 GB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/HMBa0QJQsAts",
+                url: "https://files.indi-share.com/HMBa0QJQsAts",
                 size: "437 MB"
             }
 
@@ -95,17 +95,17 @@ const movies = [
         downloads: {
 
             "1080p": {
-                url: "https://fs1.indishare.info/2zbmOK2tS2Py",
+                url: "https://files.indi-share.com/2zbmOK2tS2Py",
                 size: "3 GB"
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/TOscNrCd6mmV",
+                url: "https://files.indi-share.com/TOscNrCd6mmV",
                 size: "1 GB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/txghwocqvwji",
+                url: "https://files.indi-share.com/txghwocqvwji",
                 size: "423 MB"
             }
 
@@ -132,12 +132,12 @@ const movies = [
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/kvQ4z7H7c9x5",
+                url: "https://files.indi-share.com/kvQ4z7H7c9x5",
                 size: "1 GB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/GGD5AEkPAys3",
+                url: "https://files.indi-share.com/GGD5AEkPAys3",
                 size: "369 MB"
             }
 
@@ -159,17 +159,17 @@ const movies = [
        downloads: {
 
             "1080p": {
-                url: "https://fs1.indishare.info/0hxxuDcGf7Qn",
+                url: "https://files.indi-share.com/0hxxuDcGf7Qn",
                 size: "2.9 GB"
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/r7AM656lsAUN",
+                url: "https://files.indi-share.com/r7AM656lsAUN",
                 size: "1.3 GB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/je5VZUIRrQYJ",
+                url: "https://files.indi-share.com/je5VZUIRrQYJ",
                 size: "530 MB"
             }
 
@@ -196,12 +196,12 @@ const movies = [
             },
 
             "720p": {
-                url: "https://fs1.indishare.info/iLJygqzz8nAF",
+                url: "https://files.indi-share.com/iLJygqzz8nAF",
                 size: "1 GB"
             },
 
             "480p": {
-                url: "https://fs1.indishare.info/2LB4LczoRFlz",
+                url: "https://files.indi-share.com/2LB4LczoRFlz",
                 size: "407 MB"
             }
 
