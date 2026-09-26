@@ -526,6 +526,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 17,
+       title:"Hotel Transylvania 3 Summer Vacation",
+       year:2018,
+       type:"Movie",
+       genre:"Comedy,Animation",
+       rating:"6.3/10",
+       duration:"1h 37m",
+       format:"MKV",
+       poster:
+          "assets/posters/hotel3.jpg",
+       description:
+          "Count Dracula and company participate in a cruise for sea-loving monsters, unaware that their boat is being commandeered by the monster-hating Van Helsing family.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/fuMB51DQvbxM",
+                size: "807 MB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/yO0rDrfsbNor",
+                size: "320 MB"
+            }
+
+        }
     }
    
         
