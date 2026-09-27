@@ -590,6 +590,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 19,
+       title:"Interstellar",
+       year:20214,
+       type:"Movie",
+       genre:"Sci-Fi",
+       rating:"8.7/10",
+       duration:"2h 49m",
+       format:"MKV",
+       poster:
+          "assets/posters/Interstellar.jpg",
+       description:
+          "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.", 
+       downloads: {
+
+            "1080p": {
+                url: "https://files.indi-share.com/pmdGoHoYxPaA",
+                size: "3.68 GB"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/nHgdjJ14DutR",
+                size: "1.57 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/iRypebEfwSXO",
+                size: "626 MB"
+            }
+
+        }
     }
    
         
@@ -609,7 +641,8 @@ const recommended = [
     movies[8],
     movies[9],
     movies[10],
-    movies[11]
+    movies[11],
+    movies[18]
 ];
 
 
