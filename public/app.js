@@ -601,7 +601,7 @@ const movies = [
        duration:"2h 49m",
        format:"MKV",
        poster:
-          "assets/posters/Interstellar.jpg",
+          "assets/posters/interstellar.jpg",
        description:
           "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.", 
        downloads: {
