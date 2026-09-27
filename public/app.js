@@ -654,6 +654,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 21,
+       title:"Avengers Age Of Ultron",
+       year:2015,
+       type:"Movie",
+       genre:"Action",
+       rating:"7.3/10",
+       duration:"2h 21m",
+       format:"MKV",
+       poster:
+          "assets/posters/avengersultron.jpg",
+       description:
+          "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/ndtNNbG9OTzF",
+                size: "1.10 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/DyAjPNLfw0eG",
+                size: "471 MB"
+            }
+
+        }
     }
    
         
