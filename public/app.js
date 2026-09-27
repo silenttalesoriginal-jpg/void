@@ -1135,23 +1135,24 @@ function openDetails(movie) {
         top: 0,
         behavior: "instant"
     });
-    // Set actual download URLs on the HTML links
-document.querySelectorAll(".download-option").forEach(link => {
-    const quality = link.dataset.quality;
-    const download = movie.downloads?.[quality];
+    // Set actual download URLs on the HTML links (FIXED VERSION)
+    document.querySelectorAll(".download-option").forEach(link => {
+        const quality = link.dataset.quality;
+        const download = movie.downloads?.[quality];
 
-    if (download?.url && !download.url.startsWith("YOUR_")) {
-        link.href = download.url;
-        link.target = "_blank";
-        link.rel = "noopener";
-        link.removeAttribute("aria-disabled");
-    } else {
-        link.removeAttribute("href");
-        link.setAttribute("aria-disabled", "true");
-    }
-});
+        if (download?.url && !download.url.startsWith("YOUR_")) {
+            // FIX: Route through href.li anonymizer to safely strip your website identity
+            link.href = "https://href.li?" + download.url;
+            link.target = "_blank";
+            // FIX: Explicitly include noreferrer so long-press and click menus do not leak headers
+            link.rel = "noopener noreferrer";
+            link.removeAttribute("aria-disabled");
+        } else {
+            link.removeAttribute("href");
+            link.setAttribute("aria-disabled", "true");
+        }
+    });
 
-}
 
 
 /* =========================
