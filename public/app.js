@@ -904,6 +904,21 @@ function openDetails(movie) {
         top: 0,
         behavior: "instant"
     });
+    // Set actual download URLs on the HTML links
+document.querySelectorAll(".download-option").forEach(link => {
+    const quality = link.dataset.quality;
+    const download = movie.downloads?.[quality];
+
+    if (download?.url && !download.url.startsWith("YOUR_")) {
+        link.href = download.url;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.removeAttribute("aria-disabled");
+    } else {
+        link.removeAttribute("href");
+        link.setAttribute("aria-disabled", "true");
+    }
+});
 
 }
 
@@ -938,35 +953,6 @@ document.getElementById(
     "click",
     closeDetails
 );
-
-
-/* =========================
-   DOWNLOADS - FIX
-========================= */
-
-document.querySelectorAll(".download-option").forEach(button => {
-    button.addEventListener("click", () => {
-
-        if (!selectedMovie || !selectedMovie.downloads) {
-            return;
-        }
-
-        const quality = button.dataset.quality;
-        const download = selectedMovie.downloads[quality];
-
-        if (!download || !download.url ||
-            download.url.startsWith("YOUR_")) {
-            alert(quality + " download is not available yet.");
-            return;
-        }
-
-        // Open the exact existing URL
-        window.open(download.url, "_blank");
-
-    });
-});
-
-
 
 
 /* =========================
