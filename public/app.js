@@ -1153,7 +1153,7 @@ function openDetails(movie) {
         }
     });
 
-
+   }
 
 /* =========================
    CLOSE DETAILS
