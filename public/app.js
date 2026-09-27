@@ -753,7 +753,7 @@ const movies = [
     },
     {
        id: 24,
-       title:"Spider Man",
+       title:"Spider-Man",
        year:2002,
        type:"Movie",
        genre:"Action",
@@ -782,6 +782,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 25,
+       title:"Spider-Man 2",
+       year:2004,
+       type:"Movie",
+       genre:"Action",
+       rating:"7.5/10",
+       duration:"2h 7m",
+       format:"MKV",
+       poster:
+          "assets/posters/spiderman2.jpg",
+       description:
+          "Peter Parker is beset with troubles in his failing personal life as he battles a former brilliant scientist named Otto Octavius.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/tlYRDZDHQkjs",
+                size: "807 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/mPlhmJjsfviH",
+                size: "397 MB"
+            }
+
+        }
     }
    
         
@@ -807,7 +839,8 @@ const recommended = [
     movies[20],
     movies[21],
     movies[22],
-    movies[23]
+    movies[23],
+    movies[24]
 ];
 
 
