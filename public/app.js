@@ -753,7 +753,7 @@ const movies = [
     },
     {
        id: 24,
-       title:"Spider-Man",
+       title:"Spider Man",
        year:2002,
        type:"Movie",
        genre:"Action",
@@ -785,7 +785,7 @@ const movies = [
     },
     {
        id: 25,
-       title:"Spider-Man 2",
+       title:"Spider Man 2",
        year:2004,
        type:"Movie",
        genre:"Action",
@@ -817,7 +817,7 @@ const movies = [
     },
     {
        id: 26,
-       title:"Spider-Man 3",
+       title:"Spider Man 3",
        year:2007,
        type:"Movie",
        genre:"Action",
