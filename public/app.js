@@ -594,7 +594,7 @@ const movies = [
     {
        id: 19,
        title:"Interstellar",
-       year:20214,
+       year:2014,
        type:"Movie",
        genre:"Sci-Fi",
        rating:"8.7/10",
@@ -619,6 +619,38 @@ const movies = [
             "480p": {
                 url: "https://files.indi-share.com/iRypebEfwSXO",
                 size: "626 MB"
+            }
+
+        }
+    },
+    {
+       id: 20,
+       title:"The Avengers",
+       year:2012,
+       type:"Movie",
+       genre:"Action",
+       rating:"8.0/10",
+       duration:"2h 23m",
+       format:"MKV",
+       poster:
+          "assets/posters/avengers.jpg",
+       description:
+          "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/UVbJYNLpqVRu",
+                size: "1.1 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/yQ4zxZbs4DbY",
+                size: "445 MB"
             }
 
         }
