@@ -707,7 +707,8 @@ const recommended = [
     movies[10],
     movies[11],
     movies[18],
-    movies[19]
+    movies[19],
+    movies[20]
 ];
 
 
