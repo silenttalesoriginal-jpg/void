@@ -718,6 +718,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 23,
+       title:"Avengers Endgame",
+       year:2019,
+       type:"Movie",
+       genre:"Action",
+       rating:"8.4/10",
+       duration:"3h 1m",
+       format:"MKV",
+       poster:
+          "assets/posters/endgame.jpg",
+       description:
+          "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.", 
+       downloads: {
+
+            "1080p": {
+                url: "https://files.indi-share.com/j27AYvaaSvrc",
+                size: "3.7 GB"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/kTuWYw1PQhtP",
+                size: "1.6 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/nDMrBJkuVdBD",
+                size: "603 MB"
+            }
+
+        }
     }
    
         
@@ -741,7 +773,8 @@ const recommended = [
     movies[18],
     movies[19],
     movies[20],
-    movies[21]
+    movies[21],
+    movies[22]
 ];
 
 
