@@ -686,6 +686,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 22,
+       title:"Avengers Infinity War",
+       year:2018,
+       type:"Movie",
+       genre:"Action",
+       rating:"8.4/10",
+       duration:"2h 29m",
+       format:"MKV",
+       poster:
+          "assets/posters/infinitywar.jpg",
+       description:
+          "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/Zsq6fFbjfUpB",
+                size: "1.26 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/87LEQdpzcyOC",
+                size: "467 MB"
+            }
+
+        }
     }
    
         
@@ -708,7 +740,8 @@ const recommended = [
     movies[11],
     movies[18],
     movies[19],
-    movies[20]
+    movies[20],
+    movies[21]
 ];
 
 
