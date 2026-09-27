@@ -814,6 +814,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 26,
+       title:"Spider-Man 3",
+       year:2007,
+       type:"Movie",
+       genre:"Action",
+       rating:"6.3/10",
+       duration:"2h 19m",
+       format:"MKV",
+       poster:
+          "assets/posters/spiderman3.jpg",
+       description:
+          "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/fq9Se8zPnEz0",
+                size: "823 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/W90oEVgqSlK7",
+                size: "433 MB"
+            }
+
+        }
     }
    
         
@@ -840,7 +872,8 @@ const recommended = [
     movies[21],
     movies[22],
     movies[23],
-    movies[24]
+    movies[24],
+    movies[25]
 ];
 
 
