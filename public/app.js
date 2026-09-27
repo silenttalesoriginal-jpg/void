@@ -750,6 +750,38 @@ const movies = [
             }
 
         }
+    },
+    {
+       id: 24,
+       title:"Spider Man",
+       year:2002,
+       type:"Movie",
+       genre:"Action",
+       rating:"7.4/10",
+       duration:"2h 1m",
+       format:"MKV",
+       poster:
+          "assets/posters/spiderman.jpg",
+       description:
+          "A shy teenager is bitten by a genetically modified spider and uses his new spider-like abilities to fight injustice as a masked superhero.", 
+       downloads: {
+
+            "1080p": {
+                url: "",
+                size: "Not Available"
+            },
+
+            "720p": {
+                url: "https://files.indi-share.com/CdEbJq2L2xTJ",
+                size: "805 GB"
+            },
+
+            "480p": {
+                url: "https://files.indi-share.com/CzfJMzZjVYg4",
+                size: "375 MB"
+            }
+
+        }
     }
    
         
@@ -774,7 +806,8 @@ const recommended = [
     movies[19],
     movies[20],
     movies[21],
-    movies[22]
+    movies[22],
+    movies[23]
 ];
 
 
