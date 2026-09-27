@@ -1237,5 +1237,35 @@ main {
 .how-to-stream:hover .stream-arrow {
     transform: translate(2px, -2px);
 }
+.download-option {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 16px;
+    padding: 13px 18px;
 
+    border: none;
+    border-radius: 7px;
+
+    background: white;
+    color: black;
+
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.download-option:hover {
+    background: #ddd;
+    transform: translateY(-1px);
+}
+
+.download-option[aria-disabled="true"] {
+    opacity: 0.5;
+    pointer-events: none;
+}
 
