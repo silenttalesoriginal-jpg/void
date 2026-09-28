@@ -196,12 +196,12 @@ const movies = [
             },
 
             "720p": {
-                url: "https://files.indi-share.com/iLJygqzz8nAF",
+                url: "https://send.now/gdumk55kqu4k",
                 size: "1 GB"
             },
 
             "480p": {
-                url: "https://files.indi-share.com/2LB4LczoRFlz",
+                url: "https://send.now/kxec2kvfcjmr",
                 size: "407 MB"
             }
 
@@ -223,17 +223,17 @@ const movies = [
        downloads: {
 
             "1080p": {
-                url: "https://files.indi-share.com/fiCo3YrwQuTd",
+                url: "https://send.now/7u8dqbwg5oeh",
                 size: "2.76 GB"
             },
 
             "720p": {
-                url: "https://files.indi-share.com/BJdfE5MUagb6",
+                url: "https://send.now/2cdcd0ppmhf9",
                 size: "1.25 GB"
             },
 
             "480p": {
-                url: "https://files.indi-share.com/HVxZiSZ1iKO7",
+                url: "https://send.now/y4yktakph8cw",
                 size: "477 MB"
             }
 
@@ -260,12 +260,12 @@ const movies = [
             },
 
             "720p": {
-                url: "https://files.indi-share.com/PFBMzOCCsn7d",
+                url: "https://send.now/w699j5mtjbdh",
                 size: "971 MB"
             },
 
             "480p": {
-                url: "https://files.indi-share.com/h2LkYI0QeRGn",
+                url: "https://send.now/y8xtktpknutn",
                 size: "381 MB"
             }
 
