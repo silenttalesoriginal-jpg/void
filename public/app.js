@@ -31,8 +31,8 @@ const movies = [
             },
 
             "480p": {
-                url: "Not Available",
-                size: "439 MB"
+                url: "",
+                size: "Not Available"
             }
 
         }
@@ -420,12 +420,12 @@ const movies = [
             },
 
             "720p": {
-                url: "https://files.indi-share.com/G2e40DsMTGQs",
+                url: "https://send.now/wdp7be359plg",
                 size: "842 MB"
             },
 
             "480p": {
-                url: "https://files.indi-share.com/du5Ho3IdDqDe",
+                url: "https://send.now/1ogn78uv9rym",
                 size: "338 MB"
             }
 
@@ -452,12 +452,12 @@ const movies = [
             },
 
             "720p": {
-                url: "https://files.indi-share.com/f66uuLeNhM5y",
+                url: "https://send.now/2f4bokfjj46l",
                 size: "922 MB"
             },
 
             "480p": {
-                url: "https://files.indi-share.com/U9Z0BEPry957",
+                url: "https://send.now/3af9zb0j272u",
                 size: "295 MB"
             }
 
